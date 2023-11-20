@@ -1,0 +1,25 @@
+project:
+  type: website
+
+website:
+  title: "Eric Peter Wairagala"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - publications.qmd
+      - projects.qmd
+  favicon: "images/favicon-32x32.png"
+  page-footer:
+    left: ""
+
+format:
+  html:
+    theme: minty
+    css: styles.css
+    toc: true
+
+editor: visual
+
+execute:
+  freeze: auto

@@ -1,0 +1,19 @@
+---
+title: "Projects"
+format: html
+editor: visual
+---
+
+-   [Text Classification Using Embeddings for Luganda Text Corpus](https://github.com/EricPeter/Topic-Classification-Luganda)\
+    This repository contains code for a text classification experiment using embeddings for the Luganda text corpus. In this experiment, we utilized Support Vector Machine (SVM) as the classification model and performed hyper-parameter tuning to optimize its performance. Due to limitations imposed by the Cohere API for free users, the dataset was sampled to 500 samples for training and evaluation purposes.
+
+-   [Water quality Data visualization in Kampala central division](https://ericpeter.github.io/msc-dataviz/)\
+    Water quality Data visualization in Kampala central division.
+
+
+-   [Fine-Tune Alpaca For Any Language](https://github.com/alburycatalina/FHA_intro_to_coding)\
+    Fine-Tune Alpaca for language translation and topic classification
+
+-   [Chest Opacity Detection using Ultrasound Images](https://github.com/EricPeter/MSC-DEEPLEARNING/blob/main/train.ipynb)\
+    Chest opacities are a major health problem worldwide and early detection and treatment are crucial to avoid significant morbidity and mortality. Currently, chest X-ray is the first line procedure to assess chest conditions but interpretation of radiologic signs such as vascular opacity redistribution and interstitial edema are often questionable and subjective. Chest X-ray is also 2 dimensional and hence may not accurately tell the nature of these opacities and localization of the same is not definitive. CT scan has been determined as the gold standard to characterize, localize and identify the nature of opacities, but it is expensive, not always available, uses ionizing radiation and transferring critically ill patients to the CT room is complicated.
+

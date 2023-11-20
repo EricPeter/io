@@ -1,0 +1,23 @@
+---
+title: "Publications"
+format: html
+editor: visual
+---
+
+### In Progress
+
+Medical Machine Translation for Low-Resourced Languages: A Case Study of Luganda to English, * Dr Joyce Nakatumba-Nabende *. **Eric Peter Wairagala**,Jonathan Mukiibi, Benjamin Akera
+
+Addressing Linguistic Disparities through Explainable and Interpretable AI for Low-Resourced Languages with Large Language Models , * Dr Joyce Nakatumba-Nabende *. **Eric Peter Wairagala**,Jonathan Mukiibi
+
+### 2022
+
+[A Few Thousand Translations Go A Long Way! Leveraging Pre-trained Models for African News Translation.](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=al9kLwwAAAAJ&citation_for_view=al9kLwwAAAAJ:Y0pCki6q_DkC). 2022. David Ifeoluwa Adelani, Jesujoba Oluwadara Alabi, Angela Fan, Julia Kreutzer, Xiaoyu Shen, Machel Reid, Dana Ruiter, Dietrich Klakow, Peter Nabende, Ernie Chang, Tajuddeen Gwadabe, Freshia Sackey, Bonaventure FP Dossou, Chris Chinenye Emezue, Colin Leong, Michael Beukman, Shamsuddeen Hassan Muhammad, Guyo Dub Jarso, Oreen Yousuf, Andre Niyongabo Rubungo, Gilles Hacheme, **Eric Peter Wairagala**, Muhammad Umair Nasir, Benjamin Ayoade Ajibade, Tunde Oluwaseyi Ajayi, Yvonne Wambui Gitau, Jade Abbott, Mohamed Ahmed, Millicent Ochieng, Anuoluwapo Aremu, Perez Ogayo, Jonathan Mukiibi, Fatoumata Ouoba Kabore, Godson Koffi Kalipe, Derguene Mbaye, Allahsera Auguste Tapo, Victoire Memdjokam Koagne, Edwin Munkoh-Buabeng, Valencia Wagner, Idris Abdulmumin, Ayodele Awokoya, Happy Buzaaba, Blessing Sibanda, Andiswa Bukula, Sam Manthalu. ** [(PDF)](https://arxiv.org/pdf/2205.02022.pdf)
+
+[ Gender bias evaluation in Luganda-English machine translation.](https://aclanthology.org/2022.amta-research.21/). 2022.**Eric Peter Wairagala**, Jonathan Mukiibi, Jeremy Francis Tusubira, Claire Babirye, Joyce Nakatumba-Nabende, Andrew Katumba, Ivan Ssenkungu ** [(PDF)](https://aclanthology.org/2022.amta-research.21v2.pdf)
+
+### 2021
+
+[MasakhaNER: Named entity recognition for African languages](https://direct.mit.edu/tacl/article-abstract/doi/10.1162/tacl_a_00416/107614). 2021. David Ifeoluwa Adelani, Jade Abbott, Graham Neubig, Daniel D’souza, Julia Kreutzer, Constantine Lignos, Chester Palen-Michel, Happy Buzaaba, Shruti Rijhwani, Sebastian Ruder, Stephen Mayhew, Israel Abebe Azime, Shamsuddeen H Muhammad, Chris Chinenye Emezue, Joyce Nakatumba-Nabende, Perez Ogayo, Aremu Anuoluwapo, Catherine Gitau, Derguene Mbaye, Jesujoba Alabi, Seid Muhie Yimam, Tajuddeen Rabiu Gwadabe, Ignatius Ezeani, Rubungo Andre Niyongabo, Jonathan Mukiibi, Verrah Otiende, Iroro Orife, Davis David, Samba Ngom, Tosin Adewumi, Paul Rayson, Mofetoluwa Adeyemi, Gerald Muriuki, Emmanuel Anebi, Chiamaka Chukwuneke, Nkiruka Odu, **Eric Peter Wairagala**, Samuel Oyerinde, Clemencia Siro, Tobius Saul Bateesa, Temilola Oloyede, Yvonne Wambui, Victor Akinode, Deborah Nabagereka, Maurice Katusiime, Ayodele Awokoya, Mouhamadane Mboup, Dibora Gebreyohannes, Henok Tilaye, Kelechi Nwaike, Degaga Wolde, Abdoulaye Faye, Blessing Sibanda, Orevaoghene Ahia, Bonaventure FP Dossou, Kelechi Ogueji, Thierno Ibrahima Diop, Abdoulaye Diallo, Adewale Akinfaderin, Tendai Marengereke, Salomey Osei. *Named Entity Recognition* [(PDF)](https://onlinelibrary.wiley.com/doi/epdf/10.1111/ele.13716)
+
+

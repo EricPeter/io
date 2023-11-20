@@ -1,0 +1,41 @@
+---
+title: "Eric Peter Wairagala, MSc"
+image: images/unnamed-2.jpg
+about:
+  template: trestles
+  links:
+    - text: LinkedIn
+      icon: linkedin
+      url: "https://www.linkedin.com/in/eric-peter-wairagala"
+    - text: GitHub
+      icon: github
+      url: "https://github.com/EricPeter"
+    - text: ORCID
+      icon: person-circle
+      url: ""
+    - text: Google Scholar
+      icon: journal
+      url: "https://scholar.google.com/citations?user=al9kLwwAAAAJ&hl=en"
+    - text: Email
+      icon: envelope
+      url: "mailto:kigaye.ericpeter@gmail.com"
+comments: false
+---
+
+::: column-page
+## Bio
+
+I am a dedicated Machine Learning Engineer with a robust academic foundation and a profound dedication to ethical AI advancement. Actively engaged in pursuing a Master's degree in Computer Science, my passion lies in crafting AI solutions that contribute positively to society.
+
+Possessing a creative problem-solving orientation, I constantly seek inventive approaches to alleviate biases and enhance transparency in machine learning algorithms. Committed to the development of responsible and impactful AI, I bring a unique combination of technical prowess, fervor, and adaptability to complex projects.
+
+**Interests:** Natural Language Processing, Machine Learning, Equity and Inclusivity, Responsible AI, Information Retrieval,Reinforcement Learning and Computational Linguistics.
+
+## Inquiries
+
+If you have questions about my work or are interested in collaborating, feel free to [contact me](mailto:kigaye.ericpeter@gmail.com). I am always interested in discussing data science workshop offerings.
+
+## Mentorship
+
+I actively seek opportunities to join mentorship groups and guide fellow young researchers in their scientific careers. Please [reach out via email](mailto:kigaye.ericpeter@gmail.com).
+:::
