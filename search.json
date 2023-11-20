@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "In Progress\nMedical Machine Translation for Low-Resourced Languages: A Case Study of Luganda to English, * Dr Joyce Nakatumba-Nabende *. Eric Peter Wairagala,Jonathan Mukiibi, Benjamin Akera\nAddressing Linguistic Disparities through Explainable and Interpretable AI for Low-Resourced Languages with Large Language Models , * Dr Joyce Nakatumba-Nabende *. Eric Peter Wairagala,Jonathan Mukiibi\n\n\n2022\nA Few Thousand Translations Go A Long Way! Leveraging Pre-trained Models for African News Translation.. 2022. David Ifeoluwa Adelani, Jesujoba Oluwadara Alabi, Angela Fan, Julia Kreutzer, Xiaoyu Shen, Machel Reid, Dana Ruiter, Dietrich Klakow, Peter Nabende, Ernie Chang, Tajuddeen Gwadabe, Freshia Sackey, Bonaventure FP Dossou, Chris Chinenye Emezue, Colin Leong, Michael Beukman, Shamsuddeen Hassan Muhammad, Guyo Dub Jarso, Oreen Yousuf, Andre Niyongabo Rubungo, Gilles Hacheme, Eric Peter Wairagala, Muhammad Umair Nasir, Benjamin Ayoade Ajibade, Tunde Oluwaseyi Ajayi, Yvonne Wambui Gitau, Jade Abbott, Mohamed Ahmed, Millicent Ochieng, Anuoluwapo Aremu, Perez Ogayo, Jonathan Mukiibi, Fatoumata Ouoba Kabore, Godson Koffi Kalipe, Derguene Mbaye, Allahsera Auguste Tapo, Victoire Memdjokam Koagne, Edwin Munkoh-Buabeng, Valencia Wagner, Idris Abdulmumin, Ayodele Awokoya, Happy Buzaaba, Blessing Sibanda, Andiswa Bukula, Sam Manthalu. ** (PDF)\nGender bias evaluation in Luganda-English machine translation.. 2022.Eric Peter Wairagala, Jonathan Mukiibi, Jeremy Francis Tusubira, Claire Babirye, Joyce Nakatumba-Nabende, Andrew Katumba, Ivan Ssenkungu ** (PDF)\n\n\n2021\nMasakhaNER: Named entity recognition for African languages. 2021. David Ifeoluwa Adelani, Jade Abbott, Graham Neubig, Daniel D’souza, Julia Kreutzer, Constantine Lignos, Chester Palen-Michel, Happy Buzaaba, Shruti Rijhwani, Sebastian Ruder, Stephen Mayhew, Israel Abebe Azime, Shamsuddeen H Muhammad, Chris Chinenye Emezue, Joyce Nakatumba-Nabende, Perez Ogayo, Aremu Anuoluwapo, Catherine Gitau, Derguene Mbaye, Jesujoba Alabi, Seid Muhie Yimam, Tajuddeen Rabiu Gwadabe, Ignatius Ezeani, Rubungo Andre Niyongabo, Jonathan Mukiibi, Verrah Otiende, Iroro Orife, Davis David, Samba Ngom, Tosin Adewumi, Paul Rayson, Mofetoluwa Adeyemi, Gerald Muriuki, Emmanuel Anebi, Chiamaka Chukwuneke, Nkiruka Odu, Eric Peter Wairagala, Samuel Oyerinde, Clemencia Siro, Tobius Saul Bateesa, Temilola Oloyede, Yvonne Wambui, Victor Akinode, Deborah Nabagereka, Maurice Katusiime, Ayodele Awokoya, Mouhamadane Mboup, Dibora Gebreyohannes, Henok Tilaye, Kelechi Nwaike, Degaga Wolde, Abdoulaye Faye, Blessing Sibanda, Orevaoghene Ahia, Bonaventure FP Dossou, Kelechi Ogueji, Thierno Ibrahima Diop, Abdoulaye Diallo, Adewale Akinfaderin, Tendai Marengereke, Salomey Osei. Named Entity Recognition (PDF)"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Text Classification Using Embeddings for Luganda Text Corpus\nThis repository contains code for a text classification experiment using embeddings for the Luganda text corpus. In this experiment, we utilized Support Vector Machine (SVM) as the classification model and performed hyper-parameter tuning to optimize its performance. Due to limitations imposed by the Cohere API for free users, the dataset was sampled to 500 samples for training and evaluation purposes.\nWater quality Data visualization in Kampala central division\nWater quality Data visualization in Kampala central division.\nFine-Tune Alpaca For Any Language\nFine-Tune Alpaca for language translation and topic classification\nChest Opacity Detection using Ultrasound Images\nChest opacities are a major health problem worldwide and early detection and treatment are crucial to avoid significant morbidity and mortality. Currently, chest X-ray is the first line procedure to assess chest conditions but interpretation of radiologic signs such as vascular opacity redistribution and interstitial edema are often questionable and subjective. Chest X-ray is also 2 dimensional and hence may not accurately tell the nature of these opacities and localization of the same is not definitive. CT scan has been determined as the gold standard to characterize, localize and identify the nature of opacities, but it is expensive, not always available, uses ionizing radiation and transferring critically ill patients to the CT room is complicated."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Eric Peter Wairagala, MSc",
+    "section": "",
+    "text": "I am a dedicated Machine Learning Engineer with a robust academic foundation and a profound dedication to ethical AI advancement. Actively engaged in pursuing a Master’s degree in Computer Science, my passion lies in crafting AI solutions that contribute positively to society.\nPossessing a creative problem-solving orientation, I constantly seek inventive approaches to alleviate biases and enhance transparency in machine learning algorithms. Committed to the development of responsible and impactful AI, I bring a unique combination of technical prowess, fervor, and adaptability to complex projects.\nInterests: Natural Language Processing, Machine Learning, Equity and Inclusivity, Responsible AI, Information Retrieval,Reinforcement Learning and Computational Linguistics.\n\n\n\nIf you have questions about my work or are interested in collaborating, feel free to contact me. I am always interested in discussing data science workshop offerings.\n\n\n\nI actively seek opportunities to join mentorship groups and guide fellow young researchers in their scientific careers. Please reach out via email."
+  },
+  {
+    "objectID": "index.html#bio",
+    "href": "index.html#bio",
+    "title": "Eric Peter Wairagala, MSc",
+    "section": "",
+    "text": "I am a dedicated Machine Learning Engineer with a robust academic foundation and a profound dedication to ethical AI advancement. Actively engaged in pursuing a Master’s degree in Computer Science, my passion lies in crafting AI solutions that contribute positively to society.\nPossessing a creative problem-solving orientation, I constantly seek inventive approaches to alleviate biases and enhance transparency in machine learning algorithms. Committed to the development of responsible and impactful AI, I bring a unique combination of technical prowess, fervor, and adaptability to complex projects.\nInterests: Natural Language Processing, Machine Learning, Equity and Inclusivity, Responsible AI, Information Retrieval,Reinforcement Learning and Computational Linguistics."
+  },
+  {
+    "objectID": "index.html#inquiries",
+    "href": "index.html#inquiries",
+    "title": "Eric Peter Wairagala, MSc",
+    "section": "",
+    "text": "If you have questions about my work or are interested in collaborating, feel free to contact me. I am always interested in discussing data science workshop offerings."
+  },
+  {
+    "objectID": "index.html#mentorship",
+    "href": "index.html#mentorship",
+    "title": "Eric Peter Wairagala, MSc",
+    "section": "",
+    "text": "I actively seek opportunities to join mentorship groups and guide fellow young researchers in their scientific careers. Please reach out via email."
+  }
+]
