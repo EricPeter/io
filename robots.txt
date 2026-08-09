@@ -1,1 +1,1 @@
-Sitemap: https://EricPeter.github.io/home/sitemap.xml
+Sitemap: https://EricPeter.github.io/io/sitemap.xml
