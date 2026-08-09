@@ -2,14 +2,14 @@
 title: "Projects"
 ---
 
-A selection of research and applied ML projects spanning NLP, deep learning, and data science.
+Research and applied ML projects spanning NLP, deep learning, and data science.
 
 ---
 
 ::: {.project-card}
 #### [Text Classification Using Embeddings for Luganda](https://github.com/EricPeter/Topic-Classification-Luganda)
 
-Trained a topic classifier for the Luganda text corpus using Cohere embedding representations and an SVM with hyper-parameter search. Demonstrates NLP pipeline development for a low-resource Bantu language.
+Topic classifier for the Luganda text corpus using Cohere embedding representations and an SVM with hyper-parameter search. Demonstrates full NLP pipeline development for a low-resource Bantu language.
 
 ::: {.tech-stack}
 [Python]{.tech-tag} [SVM]{.tech-tag} [Cohere API]{.tech-tag} [Scikit-learn]{.tech-tag} [Low-resource NLP]{.tech-tag}
@@ -19,27 +19,27 @@ Trained a topic classifier for the Luganda text corpus using Cohere embedding re
 ::: {.project-card}
 #### [Water Quality Data Visualisation — Kampala](https://ericpeter.github.io/msc-dataviz/)
 
-Interactive visualisation of water quality metrics across Kampala Central Division. Surfaces spatial patterns in sanitation data to support public health analysis.
+Interactive visualisation of water quality metrics across Kampala Central Division, surfacing spatial patterns in sanitation data to support public health analysis and policy.
 
 ::: {.tech-stack}
-[R]{.tech-tag} [Data Visualisation]{.tech-tag} [Geospatial]{.tech-tag} [Public Health]{.tech-tag}
+[R]{.tech-tag} [Data Visualisation]{.tech-tag} [Geospatial Analysis]{.tech-tag} [Public Health]{.tech-tag}
 :::
 :::
 
 ::: {.project-card}
 #### [Fine-Tune Alpaca for Any Language](https://github.com/alburycatalina/FHA_intro_to_coding)
 
-Fine-tuned the Alpaca instruction-following model for multilingual language translation and topic classification tasks, exploring parameter-efficient adaptation of large language models.
+Fine-tuned the Alpaca instruction-following LLM for multilingual language translation and topic classification, exploring parameter-efficient adaptation for low-resource language settings.
 
 ::: {.tech-stack}
-[Python]{.tech-tag} [LLaMA/Alpaca]{.tech-tag} [Fine-tuning]{.tech-tag} [Instruction Tuning]{.tech-tag} [NLP]{.tech-tag}
+[Python]{.tech-tag} [LLaMA / Alpaca]{.tech-tag} [Instruction Tuning]{.tech-tag} [Fine-tuning]{.tech-tag} [Multilingual NLP]{.tech-tag}
 :::
 :::
 
 ::: {.project-card}
 #### [Chest Opacity Detection from Ultrasound Images](https://github.com/EricPeter/MSC-DEEPLEARNING/blob/main/train.ipynb)
 
-Deep learning pipeline for detecting chest opacities in ultrasound images — a low-cost alternative to CT scans. Addresses the clinical need for affordable, non-ionising diagnostic tools in resource-constrained settings.
+Deep learning pipeline for detecting chest opacities in ultrasound images — a low-cost, non-ionising alternative to CT scanning, aimed at resource-constrained clinical settings in LMICs.
 
 ::: {.tech-stack}
 [Python]{.tech-tag} [PyTorch]{.tech-tag} [Deep Learning]{.tech-tag} [Medical Imaging]{.tech-tag} [Computer Vision]{.tech-tag}

@@ -2,9 +2,9 @@
 title: "Publications"
 ---
 
-My research focuses on NLP for low-resource African languages — machine translation, named entity recognition, gender bias, and explainable AI. Authors in **bold** include me.
+Research on NLP for low-resource African languages — machine translation, named entity recognition, gender bias, and explainable AI.
 
----
+[Full list on Google Scholar ↗](https://scholar.google.com/citations?user=al9kLwwAAAAJ&hl=en){.scholar-link}
 
 ## In Progress
 
@@ -13,7 +13,7 @@ My research focuses on NLP for low-resource African languages — machine transl
 
 *Dr. Joyce Nakatumba-Nabende*, **Eric Peter Wairagala**, Jonathan Mukiibi, Benjamin Akera
 
-[In Preparation]{.venue-tag .venue-progress}
+[In Preparation]{.venue-badge .venue-progress}
 :::
 
 ::: {.pub-entry}
@@ -21,29 +21,29 @@ My research focuses on NLP for low-resource African languages — machine transl
 
 *Dr. Joyce Nakatumba-Nabende*, **Eric Peter Wairagala**, Jonathan Mukiibi
 
-[In Preparation]{.venue-tag .venue-progress}
+[In Preparation]{.venue-badge .venue-progress}
 :::
 
 ## 2022
 
 ::: {.pub-entry}
-**[A Few Thousand Translations Go A Long Way! Leveraging Pre-trained Models for African News Translation](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=al9kLwwAAAAJ&citation_for_view=al9kLwwAAAAJ:Y0pCki6q_DkC)**
-
-David I. Adelani, Jesujoba O. Alabi, Angela Fan, Julia Kreutzer, Xiaoyu Shen, Machel Reid, Dana Ruiter, Dietrich Klakow, Peter Nabende, Ernie Chang, Tajuddeen Gwadabe, Freshia Sackey, Bonaventure F. P. Dossou, Chris C. Emezue, Colin Leong, Michael Beukman, Shamsuddeen H. Muhammad, Guyo D. Jarso, Oreen Yousuf, Andre N. Rubungo, Gilles Hacheme, **Eric Peter Wairagala**, et al.
-
-[PDF](https://arxiv.org/pdf/2205.02022.pdf)
-
-Large-scale multilingual project covering 15+ African languages, enabling cross-lingual transfer via pre-trained language models.
-:::
-
-::: {.pub-entry}
-**[Gender Bias Evaluation in Luganda-English Machine Translation](https://aclanthology.org/2022.amta-research.21/)**
+**[Gender Bias Evaluation in Luganda–English Machine Translation](https://aclanthology.org/2022.amta-research.21/)**
 
 **Eric Peter Wairagala**, Jonathan Mukiibi, Jeremy Francis Tusubira, Claire Babirye, Joyce Nakatumba-Nabende, Andrew Katumba, Ivan Ssenkungu
 
-[AMTA 2022]{.venue-tag .venue-amta} · [PDF](https://aclanthology.org/2022.amta-research.21v2.pdf)
+[AMTA 2022]{.venue-badge .venue-amta} · [PDF ↗](https://aclanthology.org/2022.amta-research.21v2.pdf)
 
-First study of gender bias in Luganda–English machine translation, introducing evaluation benchmarks and mitigation strategies.
+First study of gender bias in Luganda–English machine translation; introduces evaluation benchmarks and mitigation strategies.
+:::
+
+::: {.pub-entry}
+**[A Few Thousand Translations Go A Long Way! Leveraging Pre-trained Models for African News Translation](https://arxiv.org/pdf/2205.02022.pdf)**
+
+David I. Adelani, Jesujoba O. Alabi, Angela Fan, Julia Kreutzer, Xiaoyu Shen, Machel Reid, Dana Ruiter, ..., **Eric Peter Wairagala**, et al.
+
+[Large Consortium]{.venue-badge .venue-large} · [PDF ↗](https://arxiv.org/pdf/2205.02022.pdf)
+
+Multilingual translation benchmarks spanning 15+ African languages via pre-trained model transfer.
 :::
 
 ## 2021
@@ -51,9 +51,9 @@ First study of gender bias in Luganda–English machine translation, introducing
 ::: {.pub-entry}
 **[MasakhaNER: Named Entity Recognition for African Languages](https://direct.mit.edu/tacl/article-abstract/doi/10.1162/tacl_a_00416/107614)**
 
-David I. Adelani, Jade Abbott, Graham Neubig, Daniel D'Souza, Julia Kreutzer, Constantine Lignos, Chester Palen-Michel, Happy Buzaaba, Shruti Rijhwani, Sebastian Ruder, Stephen Mayhew, Israel Abebe Azime, Shamsuddeen H. Muhammad, Chris C. Emezue, Joyce Nakatumba-Nabende, Perez Ogayo, Aremu Anuoluwapo, Catherine Gitau, Derguene Mbaye, Jesujoba Alabi, Seid Muhie Yimam, Tajuddeen R. Gwadabe, Ignatius Ezeani, Rubungo Andre Niyongabo, Jonathan Mukiibi, Verrah Otiende, Iroro Orife, Davis David, Samba Ngom, Tosin Adewumi, Paul Rayson, Mofetoluwa Adeyemi, Gerald Muriuki, Emmanuel Anebi, Chiamaka Chukwuneke, Nkiruka Odu, **Eric Peter Wairagala**, et al.
+David I. Adelani, Jade Abbott, Graham Neubig, Daniel D'Souza, Julia Kreutzer, ..., **Eric Peter Wairagala**, et al.
 
-[TACL 2021]{.venue-tag .venue-tacl} · [PDF](https://onlinelibrary.wiley.com/doi/epdf/10.1111/ele.13716)
+[TACL 2021]{.venue-badge .venue-tacl} · [PDF ↗](https://onlinelibrary.wiley.com/doi/epdf/10.1111/ele.13716)
 
-Foundational NER benchmark covering 10 African languages — a key resource for low-resource sequence labelling research.
+Foundational NER benchmark across 10 African languages; key resource for low-resource sequence labelling.
 :::

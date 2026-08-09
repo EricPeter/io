@@ -1,6 +1,6 @@
 ---
 title: "Eric Peter Wairagala"
-image: images/unnamed-2.jpg
+image: images/profile-linkedin.jpg
 about:
   template: trestles
   links:
@@ -22,36 +22,52 @@ about:
 comments: false
 ---
 
-::: {.tagline}
-ML Engineer & NLP Researcher · African Language Technologies · Responsible AI
+::: {.profile-tagline}
+ML Engineer · NLP Researcher · African Language AI
 :::
 
-I build ML systems and conduct research on **natural language processing for low-resource African languages**. My work addresses the gap in AI tools for African language speakers — through machine translation, named entity recognition, gender bias detection, and explainable AI.
+I study machine learning systems for **low-resource African languages** — building tools that work for the speakers AI has largely left behind. My research spans machine translation, named entity recognition, gender bias in NLP, and explainable AI, with a focus on Luganda and Bantu language families.
 
-My research appears in venues including TACL and AMTA. I have contributed to large-scale African NLP benchmarks such as [MasakhaNER](https://direct.mit.edu/tacl/article-abstract/doi/10.1162/tacl_a_00416/107614) and multilingual translation datasets. I am actively seeking a **PhD position** to advance research at the intersection of low-resource NLP, responsible AI, and computational linguistics for African languages.
+I have contributed to foundational African NLP benchmarks — [MasakhaNER](https://direct.mit.edu/tacl/article-abstract/doi/10.1162/tacl_a_00416/107614) (TACL) and multilingual translation datasets spanning 15+ languages — and am actively seeking a **PhD position** to push this research further.
 
-## Research Interests
+## Research
 
-::: {.interests-list}
-- Low-resource & African language NLP
-- Machine translation & gender bias in MT
-- Explainable & interpretable AI for low-resource settings
-- Named entity recognition
-- Large language models for under-resourced languages
-- Information retrieval & computational linguistics
+[Low-resource NLP]{.keyword-tag} [Machine Translation]{.keyword-tag} [Named Entity Recognition]{.keyword-tag} [Gender Bias]{.keyword-tag} [Explainable AI]{.keyword-tag} [African Languages]{.keyword-tag} [Large Language Models]{.keyword-tag} [Responsible AI]{.keyword-tag}
+
+## Selected Work
+
+::: {.pub-card}
+[Gender Bias Evaluation in Luganda–English Machine Translation](https://aclanthology.org/2022.amta-research.21/){.pub-title}
+::: {.pub-authors}
+**E. P. Wairagala**, J. Mukiibi, J. F. Tusubira, C. Babirye, J. Nakatumba-Nabende, A. Katumba, I. Ssenkungu
+:::
+::: {.pub-meta}
+[AMTA 2022]{.venue-badge .venue-amta} [PDF ↗](https://aclanthology.org/2022.amta-research.21v2.pdf){.pub-link}
+:::
 :::
 
-## Education
+::: {.pub-card}
+[MasakhaNER: Named Entity Recognition for African Languages](https://direct.mit.edu/tacl/article-abstract/doi/10.1162/tacl_a_00416/107614){.pub-title}
+::: {.pub-authors}
+D. I. Adelani, J. Abbott, G. Neubig, ..., **E. P. Wairagala**, et al.
+:::
+::: {.pub-meta}
+[TACL 2021]{.venue-badge .venue-tacl} [PDF ↗](https://onlinelibrary.wiley.com/doi/epdf/10.1111/ele.13716){.pub-link}
+:::
+:::
 
-**MSc Computer Science** · In Progress
+::: {.pub-card}
+[A Few Thousand Translations Go A Long Way! Leveraging Pre-trained Models for African News Translation](https://arxiv.org/pdf/2205.02022.pdf){.pub-title}
+::: {.pub-authors}
+D. I. Adelani, J. O. Alabi, A. Fan, J. Kreutzer, ..., **E. P. Wairagala**, et al.
+:::
+::: {.pub-meta}
+[Large Consortium]{.venue-badge .venue-large} [PDF ↗](https://arxiv.org/pdf/2205.02022.pdf){.pub-link}
+:::
+:::
 
-<!-- Add your thesis title and institution here -->
-**[Your Undergraduate Degree]** · [Institution] · [Years]
-
-## Skills
-
-[Python]{.skill-tag} [PyTorch]{.skill-tag} [HuggingFace Transformers]{.skill-tag} [Scikit-learn]{.skill-tag} [R]{.skill-tag} [Git]{.skill-tag} [Jupyter]{.skill-tag} [NLP]{.skill-tag} [Deep Learning]{.skill-tag} [Data Visualisation]{.skill-tag}
+[View all publications →](publications.qmd){.all-pubs-link}
 
 ## Contact
 
-Open to PhD opportunities, research collaborations, and mentorship. Reach me at [kigaye.ericpeter@gmail.com](mailto:kigaye.ericpeter@gmail.com).
+Open to PhD opportunities and research collaborations — [kigaye.ericpeter@gmail.com](mailto:kigaye.ericpeter@gmail.com)

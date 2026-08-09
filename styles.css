@@ -1,78 +1,243 @@
-/* ===== Typography ===== */
+/* === Fonts === */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* === Base === */
 body {
-  font-size: 16px;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-size: 15.5px;
   line-height: 1.8;
-  color: #2c3e50;
+  color: #1e293b;
+  background: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* ===== Section Headers ===== */
+/* === Navbar === */
+.navbar {
+  border-bottom: 1px solid #e2e8f0 !important;
+  background: #ffffff !important;
+  box-shadow: none !important;
+  padding: 0.75rem 1.5rem;
+}
+
+.navbar-brand {
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: #0f172a !important;
+}
+
+.navbar .nav-link {
+  font-size: 0.86rem;
+  color: #64748b !important;
+  font-weight: 500;
+  padding: 0.4rem 0.75rem !important;
+  transition: color 0.15s;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: #0f172a !important;
+}
+
+/* === Trestles layout tweaks === */
+.quarto-about-trestles {
+  gap: 3rem !important;
+  align-items: flex-start !important;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+/* Profile image — circular */
+.about-image {
+  flex-shrink: 0;
+}
+
+.about-image img {
+  width: 156px !important;
+  height: 156px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  border: 3px solid #f1f5f9;
+  box-shadow: 0 4px 20px rgba(15, 23, 42, 0.10);
+}
+
+/* Social buttons */
+.about-links {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.about-links a {
+  display: flex !important;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 16px !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 8px !important;
+  font-size: 0.8rem !important;
+  font-weight: 500 !important;
+  color: #475569 !important;
+  background: #ffffff !important;
+  text-decoration: none !important;
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
+  white-space: nowrap;
+}
+
+.about-links a:hover {
+  border-color: #0d9488 !important;
+  color: #0d9488 !important;
+  background: #f0fdfa !important;
+}
+
+/* Name heading */
+.quarto-about-trestles h1.title {
+  font-size: 2rem !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.03em !important;
+  line-height: 1.15 !important;
+  color: #0f172a;
+  margin-bottom: 0.35rem !important;
+  margin-top: 0 !important;
+}
+
+/* Tagline below name */
+.profile-tagline {
+  font-size: 0.95rem;
+  color: #64748b;
+  font-weight: 400;
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+/* === Section labels (h2) === */
 h2 {
-  font-size: 0.82rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  color: #18bc9c;
-  margin-top: 2rem;
-  margin-bottom: 0.75rem;
+  font-size: 0.67rem !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.15em !important;
+  color: #94a3b8 !important;
+  margin-top: 2.5rem !important;
+  margin-bottom: 1.1rem !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+/* === Body text === */
+p {
+  color: #334155;
+  margin-bottom: 0.9rem;
+}
+
+/* Links */
+a {
+  color: #0d9488;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0f766e;
+  text-decoration: underline;
+}
+
+/* === Research keyword tags === */
+.keyword-tag {
+  display: inline-block;
+  padding: 4px 12px;
+  margin: 3px;
+  border-radius: 6px;
+  font-size: 0.77rem;
+  font-weight: 500;
+  background: #f1f5f9;
+  color: #475569;
+  border: 1px solid #e2e8f0;
+}
+
+/* === Publication cards — home page === */
+.pub-card {
+  padding: 1.1rem 0;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.pub-card:last-of-type {
   border-bottom: none;
 }
 
-h3 {
-  font-size: 1.05rem;
+.pub-title {
+  display: block;
+  font-size: 0.92rem;
   font-weight: 600;
-  color: #1a252f;
+  color: #0f172a;
+  line-height: 1.45;
+  margin-bottom: 0.2rem;
+  text-decoration: none;
 }
 
-/* ===== Profile image ===== */
-.about-image img {
-  border-radius: 10px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+.pub-title:hover {
+  color: #0d9488;
+  text-decoration: none;
 }
 
-/* ===== Home page name ===== */
-.quarto-about-trestles h1 {
-  font-size: 2rem;
-  font-weight: 700;
-  letter-spacing: -0.02em;
+.pub-authors {
+  font-size: 0.8rem;
+  color: #64748b;
+  margin-bottom: 0.4rem;
+  line-height: 1.5;
 }
 
-/* ===== Social / contact buttons ===== */
-.about-links a.btn {
-  font-size: 0.82rem;
-  padding: 6px 14px;
-  border-radius: 6px;
-  border: 1.5px solid #2c3e50;
-  color: #2c3e50;
-  background: white;
-  font-weight: 500;
-  margin-right: 4px;
-  margin-bottom: 6px;
-  transition: background 0.2s, color 0.2s;
+.pub-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
 }
 
-.about-links a.btn:hover {
-  background: #2c3e50;
-  color: white;
-}
-
-/* ===== Skill / tech tags ===== */
-.skill-tag {
+/* Venue badges */
+.venue-badge {
   display: inline-block;
-  padding: 3px 12px;
-  margin: 3px;
-  border-radius: 20px;
-  font-size: 0.81rem;
-  font-weight: 500;
-  background: #e4f5f2;
-  color: #0e7a6a;
-  border: 1px solid #b2dfdb;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.67rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  line-height: 1.7;
 }
 
-/* ===== Publication entries ===== */
+.venue-tacl     { background: #ccfbf1; color: #0f766e; }
+.venue-amta     { background: #fee2e2; color: #b91c1c; }
+.venue-progress { background: #fef3c7; color: #92400e; }
+.venue-large    { background: #ede9fe; color: #5b21b6; }
+
+.pub-link {
+  font-size: 0.76rem;
+  color: #94a3b8;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.pub-link:hover {
+  color: #0d9488;
+  text-decoration: none;
+}
+
+/* All publications link */
+.all-pubs-link {
+  display: inline-block;
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #0d9488;
+}
+
+/* === Full publication list (.pub-entry on publications page) === */
 .pub-entry {
   padding: 1.25rem 0;
-  border-bottom: 1px solid #eef1f4;
+  border-bottom: 1px solid #f1f5f9;
   line-height: 1.7;
+  font-size: 0.92rem;
 }
 
 .pub-entry:last-child {
@@ -84,135 +249,123 @@ h3 {
 }
 
 .pub-entry strong a {
-  color: #1a252f;
+  color: #0f172a;
   text-decoration: none;
+  font-weight: 600;
 }
 
 .pub-entry strong a:hover {
-  color: #18bc9c;
+  color: #0d9488;
 }
 
-/* ===== Venue badges ===== */
-.venue-tag {
-  display: inline-block;
-  padding: 2px 9px;
-  border-radius: 4px;
-  font-size: 0.72rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  vertical-align: middle;
+/* Scholar link on publications page */
+.scholar-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 18px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 0.83rem;
+  font-weight: 500;
+  color: #475569;
+  margin-bottom: 2rem;
+  text-decoration: none;
+  transition: border-color 0.15s, color 0.15s;
 }
 
-.venue-tacl    { background: #18bc9c; color: white; }
-.venue-amta    { background: #e74c3c; color: white; }
-.venue-progress { background: #f39c12; color: white; }
+.scholar-link:hover {
+  border-color: #0d9488;
+  color: #0d9488;
+  text-decoration: none;
+}
 
-/* ===== Project cards ===== */
+/* === Project cards === */
 .project-card {
-  border: 1px solid #e1e8ed;
-  border-radius: 10px;
-  padding: 1.5rem 1.75rem;
-  margin-bottom: 1.25rem;
-  transition: box-shadow 0.2s, transform 0.2s;
-  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 1.5rem 1.6rem;
+  margin-bottom: 1rem;
+  background: #ffffff;
+  transition: box-shadow 0.15s, transform 0.15s;
 }
 
 .project-card:hover {
-  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 6px 24px rgba(15, 23, 42, 0.06);
   transform: translateY(-2px);
 }
 
 .project-card h4 {
-  font-size: 1rem;
+  font-size: 0.95rem;
   font-weight: 600;
-  margin-bottom: 0.5rem;
-  color: #1a252f;
+  color: #0f172a;
+  margin-bottom: 0.35rem;
+  line-height: 1.4;
 }
 
 .project-card p {
-  font-size: 0.93rem;
-  color: #4a5a6a;
-  margin-bottom: 0.75rem;
+  font-size: 0.85rem;
+  color: #64748b;
   line-height: 1.65;
+  margin-bottom: 0.6rem;
 }
 
 .tech-stack {
-  margin-top: 0.75rem;
+  margin-top: 0.5rem;
 }
 
 .tech-tag {
   display: inline-block;
-  padding: 2px 9px;
+  padding: 2px 8px;
   margin: 2px;
-  background: #f4f7f9;
-  color: #5a6a7a;
+  background: #f8fafc;
+  color: #64748b;
   border-radius: 4px;
-  font-size: 0.77rem;
-  border: 1px solid #dde4ea;
+  font-size: 0.73rem;
+  border: 1px solid #e2e8f0;
 }
 
-/* ===== Links ===== */
-a {
-  color: #18bc9c;
-  text-decoration: none;
+/* === Divider === */
+hr {
+  border: none;
+  border-top: 1px solid #f1f5f9;
+  margin: 2rem 0;
 }
 
-a:hover {
-  color: #10a080;
-  text-decoration: underline;
+/* === Page title on publications / projects pages === */
+.quarto-title h1.title {
+  font-size: 1.7rem !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.025em;
 }
 
-/* ===== Page title (publications / projects) ===== */
-.quarto-title-block .title {
-  font-size: 1.8rem;
-  font-weight: 700;
-}
-
-/* ===== Navbar ===== */
-.navbar-brand {
-  font-weight: 700;
-}
-
-.navbar .nav-link {
-  font-size: 0.9rem;
-}
-
-/* ===== Footer ===== */
+/* === Footer === */
 .nav-footer {
-  border-top: 1px solid #e9ecef !important;
-  font-size: 0.82rem;
-  color: #8a9ab0;
-  padding: 1.25rem 0;
+  border-top: 1px solid #f1f5f9 !important;
+  color: #94a3b8 !important;
+  font-size: 0.8rem;
+  padding: 1.5rem 0 !important;
+  background: transparent !important;
 }
 
-/* ===== Intro tagline ===== */
-.tagline {
-  font-size: 1.05rem;
-  color: #5a6a7a;
-  font-weight: 400;
-  margin-bottom: 1.25rem;
-  line-height: 1.6;
-}
-
-/* ===== Research interest list ===== */
-.interests-list {
-  list-style: none;
-  padding-left: 0;
-}
-
-.interests-list li::before {
-  content: "→ ";
-  color: #18bc9c;
-  font-weight: 600;
-}
-
-/* ===== Mobile ===== */
+/* === Mobile === */
 @media (max-width: 768px) {
-  .quarto-about-trestles h1 {
-    font-size: 1.6rem;
+  .quarto-about-trestles {
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center;
   }
-  .project-card {
-    padding: 1.25rem;
+
+  .about-links {
+    align-items: center;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    justify-content: center;
   }
+
+  .quarto-about-trestles h1.title {
+    font-size: 1.65rem !important;
+  }
+
+  .pub-meta { flex-direction: row; }
 }
