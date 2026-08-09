@@ -7,17 +7,23 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - publications.qmd
-      - projects.qmd
+      - href: publications.qmd
+        text: Publications
+      - href: projects.qmd
+        text: Projects
+    right:
+      - text: "CV"
+        icon: file-earmark-pdf
+        href: "Eric_Peter_Wairagala_CV.pdf"
   favicon: "images/favicon-32x32.png"
   page-footer:
-    left: ""
+    center: "© 2024 Eric Peter Wairagala"
 
 format:
   html:
-    theme: minty
+    theme: flatly
     css: styles.css
-    toc: true
+    toc: false
 
 editor: visual
 

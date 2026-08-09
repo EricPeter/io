@@ -1,1 +1,218 @@
-/* css styles */
+/* ===== Typography ===== */
+body {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #2c3e50;
+}
+
+/* ===== Section Headers ===== */
+h2 {
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #18bc9c;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  border-bottom: none;
+}
+
+h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #1a252f;
+}
+
+/* ===== Profile image ===== */
+.about-image img {
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* ===== Home page name ===== */
+.quarto-about-trestles h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+/* ===== Social / contact buttons ===== */
+.about-links a.btn {
+  font-size: 0.82rem;
+  padding: 6px 14px;
+  border-radius: 6px;
+  border: 1.5px solid #2c3e50;
+  color: #2c3e50;
+  background: white;
+  font-weight: 500;
+  margin-right: 4px;
+  margin-bottom: 6px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.about-links a.btn:hover {
+  background: #2c3e50;
+  color: white;
+}
+
+/* ===== Skill / tech tags ===== */
+.skill-tag {
+  display: inline-block;
+  padding: 3px 12px;
+  margin: 3px;
+  border-radius: 20px;
+  font-size: 0.81rem;
+  font-weight: 500;
+  background: #e4f5f2;
+  color: #0e7a6a;
+  border: 1px solid #b2dfdb;
+}
+
+/* ===== Publication entries ===== */
+.pub-entry {
+  padding: 1.25rem 0;
+  border-bottom: 1px solid #eef1f4;
+  line-height: 1.7;
+}
+
+.pub-entry:last-child {
+  border-bottom: none;
+}
+
+.pub-entry p {
+  margin: 0.3rem 0;
+}
+
+.pub-entry strong a {
+  color: #1a252f;
+  text-decoration: none;
+}
+
+.pub-entry strong a:hover {
+  color: #18bc9c;
+}
+
+/* ===== Venue badges ===== */
+.venue-tag {
+  display: inline-block;
+  padding: 2px 9px;
+  border-radius: 4px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  vertical-align: middle;
+}
+
+.venue-tacl    { background: #18bc9c; color: white; }
+.venue-amta    { background: #e74c3c; color: white; }
+.venue-progress { background: #f39c12; color: white; }
+
+/* ===== Project cards ===== */
+.project-card {
+  border: 1px solid #e1e8ed;
+  border-radius: 10px;
+  padding: 1.5rem 1.75rem;
+  margin-bottom: 1.25rem;
+  transition: box-shadow 0.2s, transform 0.2s;
+  background: white;
+}
+
+.project-card:hover {
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.07);
+  transform: translateY(-2px);
+}
+
+.project-card h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #1a252f;
+}
+
+.project-card p {
+  font-size: 0.93rem;
+  color: #4a5a6a;
+  margin-bottom: 0.75rem;
+  line-height: 1.65;
+}
+
+.tech-stack {
+  margin-top: 0.75rem;
+}
+
+.tech-tag {
+  display: inline-block;
+  padding: 2px 9px;
+  margin: 2px;
+  background: #f4f7f9;
+  color: #5a6a7a;
+  border-radius: 4px;
+  font-size: 0.77rem;
+  border: 1px solid #dde4ea;
+}
+
+/* ===== Links ===== */
+a {
+  color: #18bc9c;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #10a080;
+  text-decoration: underline;
+}
+
+/* ===== Page title (publications / projects) ===== */
+.quarto-title-block .title {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+/* ===== Navbar ===== */
+.navbar-brand {
+  font-weight: 700;
+}
+
+.navbar .nav-link {
+  font-size: 0.9rem;
+}
+
+/* ===== Footer ===== */
+.nav-footer {
+  border-top: 1px solid #e9ecef !important;
+  font-size: 0.82rem;
+  color: #8a9ab0;
+  padding: 1.25rem 0;
+}
+
+/* ===== Intro tagline ===== */
+.tagline {
+  font-size: 1.05rem;
+  color: #5a6a7a;
+  font-weight: 400;
+  margin-bottom: 1.25rem;
+  line-height: 1.6;
+}
+
+/* ===== Research interest list ===== */
+.interests-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.interests-list li::before {
+  content: "→ ";
+  color: #18bc9c;
+  font-weight: 600;
+}
+
+/* ===== Mobile ===== */
+@media (max-width: 768px) {
+  .quarto-about-trestles h1 {
+    font-size: 1.6rem;
+  }
+  .project-card {
+    padding: 1.25rem;
+  }
+}
