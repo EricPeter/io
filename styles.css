@@ -15,16 +15,19 @@ body {
   margin: 0;
 }
 
-/* === Strip Quarto's container padding on full-width pages === */
-.page-layout-full .page-columns,
-.page-layout-full .page-columns > div,
-.page-layout-full main.content,
-.page-layout-full #quarto-document-content {
-  padding: 0 !important;
-  margin: 0 !important;
-  max-width: 100% !important;
-  width: 100% !important;
-  grid-column: unset !important;
+/* === Remove top padding from full-width page so hero starts at navbar === */
+.page-layout-full main.content {
+  padding-top: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* Hero escapes any remaining column constraints */
+.site-hero {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 /* === Navbar === */
@@ -83,7 +86,7 @@ body {
   background: #fafafa;
   border-bottom: 1px solid #f3f4f6;
   padding: 6rem 2rem 5.5rem;
-  width: 100%;
+  box-sizing: border-box;
 }
 
 .hero-inner {
