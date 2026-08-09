@@ -4,14 +4,14 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "A selection of research and applied ML projects spanning NLP, deep learning, and data science.\n\n\nText Classification Using Embeddings for Luganda\nTrained a topic classifier for the Luganda text corpus using Cohere embedding representations and an SVM with hyper-parameter search. Demonstrates NLP pipeline development for a low-resource Bantu language.\n\nPython SVM Cohere API Scikit-learn Low-resource NLP\n\n\n\nWater Quality Data Visualisation — Kampala\nInteractive visualisation of water quality metrics across Kampala Central Division. Surfaces spatial patterns in sanitation data to support public health analysis.\n\nR Data Visualisation Geospatial Public Health\n\n\n\nFine-Tune Alpaca for Any Language\nFine-tuned the Alpaca instruction-following model for multilingual language translation and topic classification tasks, exploring parameter-efficient adaptation of large language models.\n\nPython LLaMA/Alpaca Fine-tuning Instruction Tuning NLP\n\n\n\nChest Opacity Detection from Ultrasound Images\nDeep learning pipeline for detecting chest opacities in ultrasound images — a low-cost alternative to CT scans. Addresses the clinical need for affordable, non-ionising diagnostic tools in resource-constrained settings.\n\nPython PyTorch Deep Learning Medical Imaging Computer Vision"
+    "text": "Research and applied ML projects spanning NLP, deep learning, and data science.\n\n\nText Classification Using Embeddings for Luganda\nTopic classifier for the Luganda text corpus using Cohere embedding representations and an SVM with hyper-parameter search. Demonstrates full NLP pipeline development for a low-resource Bantu language.\n\nPython SVM Cohere API Scikit-learn Low-resource NLP\n\n\n\nWater Quality Data Visualisation — Kampala\nInteractive visualisation of water quality metrics across Kampala Central Division, surfacing spatial patterns in sanitation data to support public health analysis and policy.\n\nR Data Visualisation Geospatial Analysis Public Health\n\n\n\nFine-Tune Alpaca for Any Language\nFine-tuned the Alpaca instruction-following LLM for multilingual language translation and topic classification, exploring parameter-efficient adaptation for low-resource language settings.\n\nPython LLaMA / Alpaca Instruction Tuning Fine-tuning Multilingual NLP\n\n\n\nChest Opacity Detection from Ultrasound Images\nDeep learning pipeline for detecting chest opacities in ultrasound images — a low-cost, non-ionising alternative to CT scanning, aimed at resource-constrained clinical settings in LMICs.\n\nPython PyTorch Deep Learning Medical Imaging Computer Vision"
   },
   {
     "objectID": "publications.html",
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "My research focuses on NLP for low-resource African languages — machine translation, named entity recognition, gender bias, and explainable AI. Authors in bold include me."
+    "text": "Research on NLP for low-resource African languages — machine translation, named entity recognition, gender bias, and explainable AI.\nFull list on Google Scholar ↗"
   },
   {
     "objectID": "publications.html#in-progress",
@@ -25,48 +25,41 @@
     "href": "publications.html#section",
     "title": "Publications",
     "section": "2022",
-    "text": "2022\n\nA Few Thousand Translations Go A Long Way! Leveraging Pre-trained Models for African News Translation\nDavid I. Adelani, Jesujoba O. Alabi, Angela Fan, Julia Kreutzer, Xiaoyu Shen, Machel Reid, Dana Ruiter, Dietrich Klakow, Peter Nabende, Ernie Chang, Tajuddeen Gwadabe, Freshia Sackey, Bonaventure F. P. Dossou, Chris C. Emezue, Colin Leong, Michael Beukman, Shamsuddeen H. Muhammad, Guyo D. Jarso, Oreen Yousuf, Andre N. Rubungo, Gilles Hacheme, Eric Peter Wairagala, et al.\nPDF\nLarge-scale multilingual project covering 15+ African languages, enabling cross-lingual transfer via pre-trained language models.\n\n\nGender Bias Evaluation in Luganda-English Machine Translation\nEric Peter Wairagala, Jonathan Mukiibi, Jeremy Francis Tusubira, Claire Babirye, Joyce Nakatumba-Nabende, Andrew Katumba, Ivan Ssenkungu\nAMTA 2022 · PDF\nFirst study of gender bias in Luganda–English machine translation, introducing evaluation benchmarks and mitigation strategies."
+    "text": "2022\n\nGender Bias Evaluation in Luganda–English Machine Translation\nEric Peter Wairagala, Jonathan Mukiibi, Jeremy Francis Tusubira, Claire Babirye, Joyce Nakatumba-Nabende, Andrew Katumba, Ivan Ssenkungu\nAMTA 2022 · PDF ↗\nFirst study of gender bias in Luganda–English machine translation; introduces evaluation benchmarks and mitigation strategies.\n\n\nA Few Thousand Translations Go A Long Way! Leveraging Pre-trained Models for African News Translation\nDavid I. Adelani, Jesujoba O. Alabi, Angela Fan, Julia Kreutzer, Xiaoyu Shen, Machel Reid, Dana Ruiter, …, Eric Peter Wairagala, et al.\nLarge Consortium · PDF ↗\nMultilingual translation benchmarks spanning 15+ African languages via pre-trained model transfer."
   },
   {
     "objectID": "publications.html#section-1",
     "href": "publications.html#section-1",
     "title": "Publications",
     "section": "2021",
-    "text": "2021\n\nMasakhaNER: Named Entity Recognition for African Languages\nDavid I. Adelani, Jade Abbott, Graham Neubig, Daniel D’Souza, Julia Kreutzer, Constantine Lignos, Chester Palen-Michel, Happy Buzaaba, Shruti Rijhwani, Sebastian Ruder, Stephen Mayhew, Israel Abebe Azime, Shamsuddeen H. Muhammad, Chris C. Emezue, Joyce Nakatumba-Nabende, Perez Ogayo, Aremu Anuoluwapo, Catherine Gitau, Derguene Mbaye, Jesujoba Alabi, Seid Muhie Yimam, Tajuddeen R. Gwadabe, Ignatius Ezeani, Rubungo Andre Niyongabo, Jonathan Mukiibi, Verrah Otiende, Iroro Orife, Davis David, Samba Ngom, Tosin Adewumi, Paul Rayson, Mofetoluwa Adeyemi, Gerald Muriuki, Emmanuel Anebi, Chiamaka Chukwuneke, Nkiruka Odu, Eric Peter Wairagala, et al.\nTACL 2021 · PDF\nFoundational NER benchmark covering 10 African languages — a key resource for low-resource sequence labelling research."
+    "text": "2021\n\nMasakhaNER: Named Entity Recognition for African Languages\nDavid I. Adelani, Jade Abbott, Graham Neubig, Daniel D’Souza, Julia Kreutzer, …, Eric Peter Wairagala, et al.\nTACL 2021 · PDF ↗\nFoundational NER benchmark across 10 African languages; key resource for low-resource sequence labelling."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Eric Peter Wairagala",
     "section": "",
-    "text": "ML Engineer & NLP Researcher · African Language Technologies · Responsible AI\nI build ML systems and conduct research on natural language processing for low-resource African languages. My work addresses the gap in AI tools for African language speakers — through machine translation, named entity recognition, gender bias detection, and explainable AI.\nMy research appears in venues including TACL and AMTA. I have contributed to large-scale African NLP benchmarks such as MasakhaNER and multilingual translation datasets. I am actively seeking a PhD position to advance research at the intersection of low-resource NLP, responsible AI, and computational linguistics for African languages."
+    "text": "ML Engineer · NLP Researcher · African Language AI\nI study machine learning systems for low-resource African languages — building tools that work for the speakers AI has largely left behind. My research spans machine translation, named entity recognition, gender bias in NLP, and explainable AI, with a focus on Luganda and Bantu language families.\nI have contributed to foundational African NLP benchmarks — MasakhaNER (TACL) and multilingual translation datasets spanning 15+ languages — and am actively seeking a PhD position to push this research further."
   },
   {
-    "objectID": "index.html#research-interests",
-    "href": "index.html#research-interests",
+    "objectID": "index.html#research",
+    "href": "index.html#research",
     "title": "Eric Peter Wairagala",
-    "section": "Research Interests",
-    "text": "Research Interests\n\n\nLow-resource & African language NLP\nMachine translation & gender bias in MT\nExplainable & interpretable AI for low-resource settings\nNamed entity recognition\nLarge language models for under-resourced languages\nInformation retrieval & computational linguistics"
+    "section": "Research",
+    "text": "Research\nLow-resource NLP Machine Translation Named Entity Recognition Gender Bias Explainable AI African Languages Large Language Models Responsible AI"
   },
   {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
+    "objectID": "index.html#selected-work",
+    "href": "index.html#selected-work",
     "title": "Eric Peter Wairagala",
-    "section": "Education",
-    "text": "Education\nMSc Computer Science · In Progress\n\n[Your Undergraduate Degree] · [Institution] · [Years]"
-  },
-  {
-    "objectID": "index.html#skills",
-    "href": "index.html#skills",
-    "title": "Eric Peter Wairagala",
-    "section": "Skills",
-    "text": "Skills\nPython PyTorch HuggingFace Transformers Scikit-learn R Git Jupyter NLP Deep Learning Data Visualisation"
+    "section": "Selected Work",
+    "text": "Selected Work\n\nGender Bias Evaluation in Luganda–English Machine Translation ::: {.pub-authors} E. P. Wairagala, J. Mukiibi, J. F. Tusubira, C. Babirye, J. Nakatumba-Nabende, A. Katumba, I. Ssenkungu\n\n\nAMTA 2022 PDF ↗\n\n:::\n\nMasakhaNER: Named Entity Recognition for African Languages ::: {.pub-authors} D. I. Adelani, J. Abbott, G. Neubig, …, E. P. Wairagala, et al.\n\n\nTACL 2021 PDF ↗\n\n:::\n\nA Few Thousand Translations Go A Long Way! Leveraging Pre-trained Models for African News Translation ::: {.pub-authors} D. I. Adelani, J. O. Alabi, A. Fan, J. Kreutzer, …, E. P. Wairagala, et al.\n\n\nLarge Consortium PDF ↗\n\n:::\nView all publications →"
   },
   {
     "objectID": "index.html#contact",
     "href": "index.html#contact",
     "title": "Eric Peter Wairagala",
     "section": "Contact",
-    "text": "Contact\nOpen to PhD opportunities, research collaborations, and mentorship. Reach me at kigaye.ericpeter@gmail.com."
+    "text": "Contact\nOpen to PhD opportunities and research collaborations — kigaye.ericpeter@gmail.com"
   }
 ]
