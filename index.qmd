@@ -16,7 +16,7 @@ page-layout: full
         <a href="https://github.com/EricPeter" class="hero-link">GitHub</a>
         <a href="https://scholar.google.com/citations?user=al9kLwwAAAAJ&hl=en" class="hero-link">Scholar</a>
         <a href="mailto:kigaye.ericpeter@gmail.com" class="hero-link">Email</a>
-        <a href="Eric_Peter_Wairagala_CV.pdf" class="hero-link hero-link-cv">Download CV &uarr;</a>
+        <a href="Eric_Peter_Wairagala_CV.pdf" class="hero-link hero-link-cv">Download CV</a>
       </div>
     </div>
     <div class="hero-photo-wrap">
@@ -24,50 +24,60 @@ page-layout: full
     </div>
   </div>
 </section>
+
+<div class="site-body">
+
+  <section class="site-section">
+    <h2 class="section-label">Research</h2>
+    <div class="keyword-tags">
+      <span class="keyword-tag">Low-resource NLP</span>
+      <span class="keyword-tag">Machine Translation</span>
+      <span class="keyword-tag">Named Entity Recognition</span>
+      <span class="keyword-tag">Gender Bias in MT</span>
+      <span class="keyword-tag">Explainable AI</span>
+      <span class="keyword-tag">African Languages</span>
+      <span class="keyword-tag">Large Language Models</span>
+      <span class="keyword-tag">Responsible AI</span>
+    </div>
+  </section>
+
+  <section class="site-section">
+    <h2 class="section-label">Selected Work</h2>
+
+    <div class="pub-card">
+      <a href="https://aclanthology.org/2022.amta-research.21/" class="pub-title">Gender Bias Evaluation in Luganda&ndash;English Machine Translation</a>
+      <p class="pub-authors"><strong>E. P. Wairagala</strong>, J. Mukiibi, J. F. Tusubira, C. Babirye, J. Nakatumba-Nabende, A. Katumba, I. Ssenkungu</p>
+      <div class="pub-meta">
+        <span class="venue-badge venue-amta">AMTA 2022</span>
+        <a href="https://aclanthology.org/2022.amta-research.21v2.pdf" class="pub-link">PDF &#8599;</a>
+      </div>
+    </div>
+
+    <div class="pub-card">
+      <a href="https://direct.mit.edu/tacl/article-abstract/doi/10.1162/tacl_a_00416/107614" class="pub-title">MasakhaNER: Named Entity Recognition for African Languages</a>
+      <p class="pub-authors">D. I. Adelani, J. Abbott, G. Neubig, ..., <strong>E. P. Wairagala</strong>, et al.</p>
+      <div class="pub-meta">
+        <span class="venue-badge venue-tacl">TACL 2021</span>
+        <a href="https://onlinelibrary.wiley.com/doi/epdf/10.1111/ele.13716" class="pub-link">PDF &#8599;</a>
+      </div>
+    </div>
+
+    <div class="pub-card">
+      <a href="https://arxiv.org/abs/2205.02022" class="pub-title">A Few Thousand Translations Go A Long Way! Leveraging Pre-trained Models for African News Translation</a>
+      <p class="pub-authors">D. I. Adelani, J. O. Alabi, A. Fan, J. Kreutzer, ..., <strong>E. P. Wairagala</strong>, et al.</p>
+      <div class="pub-meta">
+        <span class="venue-badge venue-large">Large Consortium</span>
+        <a href="https://arxiv.org/pdf/2205.02022.pdf" class="pub-link">PDF &#8599;</a>
+      </div>
+    </div>
+
+    <a href="publications.html" class="all-pubs-link">View all publications &rarr;</a>
+  </section>
+
+  <section class="site-section">
+    <h2 class="section-label">Contact</h2>
+    <p>Open to PhD opportunities and research collaborations &mdash; <a href="mailto:kigaye.ericpeter@gmail.com">kigaye.ericpeter@gmail.com</a></p>
+  </section>
+
+</div>
 ```
-
-::: {.site-body}
-
-## Research
-
-[Low-resource NLP]{.keyword-tag} [Machine Translation]{.keyword-tag} [Named Entity Recognition]{.keyword-tag} [Gender Bias in MT]{.keyword-tag} [Explainable AI]{.keyword-tag} [African Languages]{.keyword-tag} [Large Language Models]{.keyword-tag} [Responsible AI]{.keyword-tag}
-
-## Selected Work
-
-::: {.pub-card}
-[Gender Bias Evaluation in Luganda–English Machine Translation](https://aclanthology.org/2022.amta-research.21/){.pub-title}
-::: {.pub-authors}
-**E. P. Wairagala**, J. Mukiibi, J. F. Tusubira, C. Babirye, J. Nakatumba-Nabende, A. Katumba, I. Ssenkungu
-:::
-::: {.pub-meta}
-[AMTA 2022]{.venue-badge .venue-amta} [PDF ↗](https://aclanthology.org/2022.amta-research.21v2.pdf){.pub-link}
-:::
-:::
-
-::: {.pub-card}
-[MasakhaNER: Named Entity Recognition for African Languages](https://direct.mit.edu/tacl/article-abstract/doi/10.1162/tacl_a_00416/107614){.pub-title}
-::: {.pub-authors}
-D. I. Adelani, J. Abbott, G. Neubig, ..., **E. P. Wairagala**, et al.
-:::
-::: {.pub-meta}
-[TACL 2021]{.venue-badge .venue-tacl} [PDF ↗](https://onlinelibrary.wiley.com/doi/epdf/10.1111/ele.13716){.pub-link}
-:::
-:::
-
-::: {.pub-card}
-[A Few Thousand Translations Go A Long Way! Leveraging Pre-trained Models for African News Translation](https://arxiv.org/abs/2205.02022){.pub-title}
-::: {.pub-authors}
-D. I. Adelani, J. O. Alabi, A. Fan, J. Kreutzer, ..., **E. P. Wairagala**, et al.
-:::
-::: {.pub-meta}
-[Large Consortium]{.venue-badge .venue-large} [PDF ↗](https://arxiv.org/pdf/2205.02022.pdf){.pub-link}
-:::
-:::
-
-[View all publications →](publications.qmd){.all-pubs-link}
-
-## Contact
-
-Open to PhD opportunities and research collaborations — [kigaye.ericpeter@gmail.com](mailto:kigaye.ericpeter@gmail.com)
-
-:::
