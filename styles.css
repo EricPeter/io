@@ -198,7 +198,29 @@ body {
   padding: 4.5rem 2rem 6rem;
 }
 
-/* === Section labels (h2) — all pages === */
+.site-section {
+  margin-bottom: 3rem;
+}
+
+.keyword-tags {
+  line-height: 2.2;
+}
+
+/* === Section labels — home page === */
+.section-label {
+  font-size: 0.64rem !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.18em !important;
+  color: #9ca3af !important;
+  margin-top: 0 !important;
+  margin-bottom: 1.25rem !important;
+  border: none !important;
+  padding: 0 !important;
+  line-height: 1 !important;
+}
+
+/* === Section labels (h2) — sub-pages === */
 h2 {
   font-size: 0.64rem !important;
   font-weight: 700 !important;
