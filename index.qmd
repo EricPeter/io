@@ -1,38 +1,47 @@
 ---
-title: "Eric Peter Wairagala"
-image: images/profile-linkedin.jpg
-about:
-  template: trestles
-  links:
-    - text: LinkedIn
-      icon: linkedin
-      url: "https://www.linkedin.com/in/eric-peter-wairagala"
-    - text: GitHub
-      icon: github
-      url: "https://github.com/EricPeter"
-    - text: Scholar
-      icon: mortarboard
-      url: "https://scholar.google.com/citations?user=al9kLwwAAAAJ&hl=en"
-    - text: Email
-      icon: envelope
-      url: "mailto:kigaye.ericpeter@gmail.com"
-    - text: CV
-      icon: file-earmark-pdf
-      url: "Eric_Peter_Wairagala_CV.pdf"
-comments: false
+title: ""
+page-layout: full
 ---
 
-::: {.profile-tagline}
-ML Engineer · NLP Researcher · African Language AI
-:::
+<section class="site-hero">
+<div class="hero-inner">
 
-I study machine learning systems for **low-resource African languages** — building tools that work for the speakers AI has largely left behind. My research spans machine translation, named entity recognition, gender bias in NLP, and explainable AI, with a focus on Luganda and Bantu language families.
+<div class="hero-text">
+<h1 class="hero-name">Eric Peter Wairagala</h1>
+<p class="hero-role">ML Engineer &middot; NLP Researcher &middot; African Language AI</p>
+<p class="hero-bio">
+  I study machine learning systems for <strong>low-resource African languages</strong> —
+  building tools that work for the speakers AI has largely left behind. My research spans
+  machine translation, named entity recognition, gender bias detection, and explainable NLP,
+  with a focus on Luganda and Bantu language families.
+</p>
+<p class="hero-bio">
+  I have contributed to landmark African NLP benchmarks including
+  <a href="https://direct.mit.edu/tacl/article-abstract/doi/10.1162/tacl_a_00416/107614">MasakhaNER</a>
+  (TACL) and multilingual translation datasets spanning 15+ languages.
+  I am actively seeking a <strong>PhD position</strong> to push this research further.
+</p>
+<div class="hero-links">
+  <a href="https://www.linkedin.com/in/eric-peter-wairagala" class="hero-link">LinkedIn</a>
+  <a href="https://github.com/EricPeter" class="hero-link">GitHub</a>
+  <a href="https://scholar.google.com/citations?user=al9kLwwAAAAJ&hl=en" class="hero-link">Scholar</a>
+  <a href="mailto:kigaye.ericpeter@gmail.com" class="hero-link">Email</a>
+  <a href="Eric_Peter_Wairagala_CV.pdf" class="hero-link hero-link-cv">Download CV ↗</a>
+</div>
+</div>
 
-I have contributed to foundational African NLP benchmarks — [MasakhaNER](https://direct.mit.edu/tacl/article-abstract/doi/10.1162/tacl_a_00416/107614) (TACL) and multilingual translation datasets spanning 15+ languages — and am actively seeking a **PhD position** to push this research further.
+<div class="hero-photo-wrap">
+  <img src="images/profile-linkedin.jpg" alt="Eric Peter Wairagala" class="hero-photo">
+</div>
+
+</div>
+</section>
+
+::: {.site-body}
 
 ## Research
 
-[Low-resource NLP]{.keyword-tag} [Machine Translation]{.keyword-tag} [Named Entity Recognition]{.keyword-tag} [Gender Bias]{.keyword-tag} [Explainable AI]{.keyword-tag} [African Languages]{.keyword-tag} [Large Language Models]{.keyword-tag} [Responsible AI]{.keyword-tag}
+[Low-resource NLP]{.keyword-tag} [Machine Translation]{.keyword-tag} [Named Entity Recognition]{.keyword-tag} [Gender Bias in MT]{.keyword-tag} [Explainable AI]{.keyword-tag} [African Languages]{.keyword-tag} [Large Language Models]{.keyword-tag} [Responsible AI]{.keyword-tag}
 
 ## Selected Work
 
@@ -57,7 +66,7 @@ D. I. Adelani, J. Abbott, G. Neubig, ..., **E. P. Wairagala**, et al.
 :::
 
 ::: {.pub-card}
-[A Few Thousand Translations Go A Long Way! Leveraging Pre-trained Models for African News Translation](https://arxiv.org/pdf/2205.02022.pdf){.pub-title}
+[A Few Thousand Translations Go A Long Way! Leveraging Pre-trained Models for African News Translation](https://arxiv.org/abs/2205.02022){.pub-title}
 ::: {.pub-authors}
 D. I. Adelani, J. O. Alabi, A. Fan, J. Kreutzer, ..., **E. P. Wairagala**, et al.
 :::
@@ -71,3 +80,5 @@ D. I. Adelani, J. O. Alabi, A. Fan, J. Kreutzer, ..., **E. P. Wairagala**, et al
 ## Contact
 
 Open to PhD opportunities and research collaborations — [kigaye.ericpeter@gmail.com](mailto:kigaye.ericpeter@gmail.com)
+
+:::
