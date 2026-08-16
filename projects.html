@@ -149,144 +149,93 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Production AI systems, research, and applied ML projects spanning NLP, deep learning, and data science.</p>
+<p>Production AI systems, research, and applied ML spanning NLP, low-resource languages, and AI engineering.</p>
 <hr>
 <section id="ai-engineering-portfolio" class="level2">
 <h2 class="anchored" data-anchor-id="ai-engineering-portfolio">AI Engineering Portfolio</h2>
-<p>19 production-grade AI systems demonstrating real-world engineering. Each project is fully runnable end-to-end. → <strong><a href="https://github.com/EricPeter/ai-projects">View all projects on GitHub</a></strong></p>
-<section id="production-rag-with-citations" class="level4 project-card">
-<h4 class="anchored" data-anchor-id="production-rag-with-citations"><a href="https://github.com/EricPeter/ai-projects/tree/main/01-production-rag">01 — Production RAG with Citations</a></h4>
-<p>PDF Q&amp;A API that returns answers with page-number citations. Implements hybrid search (dense vectors + BM25), cross-encoder reranking, and a LangGraph pipeline. Built for production: chunking, embedding caching, and SQLite-vec for zero-dependency vector storage.</p>
-<div class="tech-stack">
-<p><span class="tech-tag">LangGraph</span> <span class="tech-tag">SQLite-vec</span> <span class="tech-tag">sentence-transformers</span> <span class="tech-tag">FastAPI</span> <span class="tech-tag">BM25</span></p>
+<p>20 production-grade AI systems. Every project is fully runnable end-to-end. &nbsp;<a href="https://github.com/EricPeter/ai-projects" class="all-pubs-link">View on GitHub →</a></p>
+<div class="ai-grid">
+<div class="ai-card">
+<p><strong><a href="https://github.com/EricPeter/ai-projects/tree/main/01-production-rag">01 — Production RAG</a></strong> PDF Q&amp;A with page citations. Hybrid search (dense + BM25), cross-encoder reranking, LangGraph pipeline. ::: {.tech-stack} <span class="tech-tag">LangGraph</span> <span class="tech-tag">SQLite-vec</span> <span class="tech-tag">BM25</span> <span class="tech-tag">FastAPI</span></p>
 </div>
-</section>
-<section id="cost-optimized-model-router" class="level4 project-card">
-<h4 class="anchored" data-anchor-id="cost-optimized-model-router"><a href="https://github.com/EricPeter/ai-projects/tree/main/02-model-router">02 — Cost-Optimized Model Router</a></h4>
-<p>Routes every query to the cheapest model that can handle it — Haiku for simple questions, Sonnet for medium, Opus for complex reasoning. Tracks cost per request in SQLite and exposes real-time Prometheus metrics. Saves up to 10× on API costs.</p>
-<div class="tech-stack">
-<p><span class="tech-tag">FastAPI</span> <span class="tech-tag">Prometheus</span> <span class="tech-tag">Anthropic SDK</span> <span class="tech-tag">SQLite</span></p>
 </div>
-</section>
-<section id="multi-agent-research-system" class="level4 project-card">
-<h4 class="anchored" data-anchor-id="multi-agent-research-system"><a href="https://github.com/EricPeter/ai-projects/tree/main/03-multi-agent-research">03 — Multi-Agent Research System</a></h4>
-<p>A CrewAI pipeline where a Researcher, Writer, and Fact-Checker collaborate on research reports. The Fact-Checker marks uncertain claims with [UNCERTAIN] markers and pauses for human approval before finalisation. Every agent action is written to a tamper-evident JSONL audit trail.</p>
-<div class="tech-stack">
-<p><span class="tech-tag">CrewAI</span> <span class="tech-tag">Anthropic SDK</span> <span class="tech-tag">Audit Trail</span></p>
+<div class="ai-card">
+<p><strong><a href="https://github.com/EricPeter/ai-projects/tree/main/02-model-router">02 — Model Router</a></strong> Routes queries to Haiku, Sonnet, or Opus by complexity. Saves up to 10× on API cost. ::: {.tech-stack} <span class="tech-tag">Anthropic SDK</span> <span class="tech-tag">Prometheus</span> <span class="tech-tag">FastAPI</span></p>
 </div>
-</section>
-<section id="automated-eval-harness" class="level4 project-card">
-<h4 class="anchored" data-anchor-id="automated-eval-harness"><a href="https://github.com/EricPeter/ai-projects/tree/main/04-eval-harness">04 — Automated Eval Harness</a></h4>
-<p>Runs 20+ golden Q&amp;A test cases against a RAG system before every deploy. Uses DeepEval for answer relevancy and hallucination scoring. Blocks CI/CD pipelines if quality drops below threshold. Tracks eval scores over time to surface regressions.</p>
-<div class="tech-stack">
-<p><span class="tech-tag">DeepEval</span> <span class="tech-tag">RAGAS</span> <span class="tech-tag">pytest</span> <span class="tech-tag">LangSmith</span></p>
+<p>:::</p>
+<div class="ai-card">
+<p><strong><a href="https://github.com/EricPeter/ai-projects/tree/main/03-multi-agent-research">03 — Multi-Agent Research</a></strong> CrewAI pipeline: Researcher, Writer, Fact-Checker with human-approval gate and JSONL audit trail. ::: {.tech-stack} <span class="tech-tag">CrewAI</span> <span class="tech-tag">Anthropic SDK</span> <span class="tech-tag">Audit Trail</span></p>
 </div>
-</section>
-<section id="real-time-observability-dashboard" class="level4 project-card">
-<h4 class="anchored" data-anchor-id="real-time-observability-dashboard"><a href="https://github.com/EricPeter/ai-projects/tree/main/05-observability">05 — Real-Time Observability Dashboard</a></h4>
-<p>Full-stack AI observability: distributed tracing with OpenTelemetry, Prometheus metrics (request rate, latency p50/p95/p99, cost per hour, error rate), and a pre-built Grafana dashboard that loads automatically. Essential for operating AI in production.</p>
-<div class="tech-stack">
-<p><span class="tech-tag">OpenTelemetry</span> <span class="tech-tag">Prometheus</span> <span class="tech-tag">Grafana</span> <span class="tech-tag">Jaeger</span> <span class="tech-tag">FastAPI</span></p>
+<p>:::</p>
+<div class="ai-card">
+<p><strong><a href="https://github.com/EricPeter/ai-projects/tree/main/04-eval-harness">04 — Eval Harness</a></strong> 20+ golden Q&amp;A test cases run before every deploy. Blocks CI if quality drops below threshold. ::: {.tech-stack} <span class="tech-tag">DeepEval</span> <span class="tech-tag">RAGAS</span> <span class="tech-tag">pytest</span></p>
 </div>
-</section>
-<section id="security-guardrail-middleware" class="level4 project-card">
-<h4 class="anchored" data-anchor-id="security-guardrail-middleware"><a href="https://github.com/EricPeter/ai-projects/tree/main/06-security-guardrails">06 — Security Guardrail Middleware</a></h4>
-<p>FastAPI middleware that chains: prompt injection detection (regex + confidence scoring), PII redaction with Microsoft Presidio, output filtering for secrets and toxic content, and per-IP rate limiting. All blocked requests are logged to a security audit file.</p>
-<div class="tech-stack">
-<p><span class="tech-tag">Presidio</span> <span class="tech-tag">slowapi</span> <span class="tech-tag">FastAPI</span> <span class="tech-tag">Anthropic SDK</span></p>
+<p>:::</p>
+<div class="ai-card">
+<p><strong><a href="https://github.com/EricPeter/ai-projects/tree/main/05-observability">05 — Observability</a></strong> Full-stack AI observability: OpenTelemetry traces, Prometheus metrics, auto-provisioned Grafana dashboard. ::: {.tech-stack} <span class="tech-tag">OpenTelemetry</span> <span class="tech-tag">Prometheus</span> <span class="tech-tag">Grafana</span></p>
 </div>
-</section>
-<section id="local-first-development-environment" class="level4 project-card">
-<h4 class="anchored" data-anchor-id="local-first-development-environment"><a href="https://github.com/EricPeter/ai-projects/tree/main/07-local-dev">07 — Local-First Development Environment</a></h4>
-<p>Zero API cost RAG system that mirrors the production architecture but runs 100% offline. Ollama handles local LLM inference, LanceDB provides embedded vector storage, and sentence-transformers generate embeddings locally. Perfect for development and testing.</p>
-<div class="tech-stack">
-<p><span class="tech-tag">Ollama</span> <span class="tech-tag">LanceDB</span> <span class="tech-tag">FastAPI</span> <span class="tech-tag">sentence-transformers</span></p>
+<p>:::</p>
+<div class="ai-card">
+<p><strong><a href="https://github.com/EricPeter/ai-projects/tree/main/06-security-guardrails">06 — Security Guardrails</a></strong> Middleware: prompt injection detection, PII redaction with Presidio, output filtering, rate limiting. ::: {.tech-stack} <span class="tech-tag">Presidio</span> <span class="tech-tag">FastAPI</span> <span class="tech-tag">slowapi</span></p>
 </div>
-</section>
-<section id="streaming-copilot-ui" class="level4 project-card">
-<h4 class="anchored" data-anchor-id="streaming-copilot-ui"><a href="https://github.com/EricPeter/ai-projects/tree/main/08-streaming-copilot">08 — Streaming Copilot UI</a></h4>
-<p>Real-time token streaming chat UI built with Next.js 14 App Router and Vercel AI SDK. Tokens stream to the browser as they are generated. Includes optimistic UI updates, animated loading indicators, graceful error recovery, and a clean dark theme.</p>
-<div class="tech-stack">
-<p><span class="tech-tag">Next.js 14</span> <span class="tech-tag">Vercel AI SDK</span> <span class="tech-tag">TypeScript</span> <span class="tech-tag">Tailwind CSS</span></p>
+<p>:::</p>
+<div class="ai-card">
+<p><strong><a href="https://github.com/EricPeter/ai-projects/tree/main/07-local-dev">07 — Local Dev Environment</a></strong> Zero API cost RAG stack that runs 100% offline. Ollama + LanceDB + sentence-transformers. ::: {.tech-stack} <span class="tech-tag">Ollama</span> <span class="tech-tag">LanceDB</span> <span class="tech-tag">FastAPI</span></p>
 </div>
-</section>
-<section id="fine-tuning-pipeline-with-lora" class="level4 project-card">
-<h4 class="anchored" data-anchor-id="fine-tuning-pipeline-with-lora"><a href="https://github.com/EricPeter/ai-projects/tree/main/09-fine-tuning">09 — Fine-Tuning Pipeline with LoRA</a></h4>
-<p>End-to-end instruction-tuning pipeline: dataset preparation in Alpaca format → LoRA fine-tuning with PEFT → evaluation with ROUGE-L before and after → catastrophic forgetting detection. Uses facebook/opt-125m for fast CPU-runnable demos; swap in any larger model.</p>
-<div class="tech-stack">
-<p><span class="tech-tag">PEFT</span> <span class="tech-tag">TRL</span> <span class="tech-tag">Hugging Face</span> <span class="tech-tag">LoRA</span> <span class="tech-tag">Transformers</span></p>
+<p>:::</p>
+<div class="ai-card">
+<p><strong><a href="https://github.com/EricPeter/ai-projects/tree/main/08-streaming-copilot">08 — Streaming Copilot UI</a></strong> Token-level streaming chat with Next.js 14 App Router and Vercel AI SDK. ::: {.tech-stack} <span class="tech-tag">Next.js 14</span> <span class="tech-tag">Vercel AI SDK</span> <span class="tech-tag">TypeScript</span></p>
 </div>
-</section>
-<section id="multi-tenant-saas-agent" class="level4 project-card">
-<h4 class="anchored" data-anchor-id="multi-tenant-saas-agent"><a href="https://github.com/EricPeter/ai-projects/tree/main/10-multi-tenant-saas">10 — Multi-Tenant SaaS Agent</a></h4>
-<p>Production-ready multi-tenant AI agent with JWT authentication, strict row-level tenant data isolation, per-tenant rate limiting (free: 10 req/min, pro: 100 req/min), usage tracking with cost accounting, and an immutable audit log.</p>
-<div class="tech-stack">
-<p><span class="tech-tag">FastAPI</span> <span class="tech-tag">SQLAlchemy</span> <span class="tech-tag">JWT</span> <span class="tech-tag">Stripe</span> <span class="tech-tag">LangGraph</span></p>
+<p>:::</p>
+<div class="ai-card">
+<p><strong><a href="https://github.com/EricPeter/ai-projects/tree/main/09-fine-tuning">09 — Fine-Tuning Pipeline</a></strong> LoRA fine-tuning with PEFT + DPO, ROUGE-L evaluation, and catastrophic forgetting detection. ::: {.tech-stack} <span class="tech-tag">PEFT</span> <span class="tech-tag">TRL</span> <span class="tech-tag">Transformers</span></p>
 </div>
-</section>
-<section id="cicd-for-ai-systems" class="level4 project-card">
-<h4 class="anchored" data-anchor-id="cicd-for-ai-systems"><a href="https://github.com/EricPeter/ai-projects/tree/main/11-cicd-ai">11 — CI/CD for AI Systems</a></h4>
-<p>Complete GitHub Actions pipeline: lint → unit tests → golden eval suite (blocks merge if score &lt; 90%) → security scan. CD pipeline: Docker build → ArgoCD canary deploy (10% traffic) → smoke tests → promote or auto-rollback. Kubernetes manifests + feature flags included.</p>
-<div class="tech-stack">
-<p><span class="tech-tag">GitHub Actions</span> <span class="tech-tag">ArgoCD</span> <span class="tech-tag">Kubernetes</span> <span class="tech-tag">Docker</span></p>
+<p>:::</p>
+<div class="ai-card">
+<p><strong><a href="https://github.com/EricPeter/ai-projects/tree/main/10-multi-tenant-saas">10 — Multi-Tenant SaaS</a></strong> JWT auth, row-level tenant isolation, per-tier rate limiting, usage cost accounting. ::: {.tech-stack} <span class="tech-tag">FastAPI</span> <span class="tech-tag">SQLAlchemy</span> <span class="tech-tag">JWT</span></p>
 </div>
-</section>
-<section id="vector-database-at-scale" class="level4 project-card">
-<h4 class="anchored" data-anchor-id="vector-database-at-scale"><a href="https://github.com/EricPeter/ai-projects/tree/main/12-vector-db">12 — Vector Database at Scale</a></h4>
-<p>Qdrant-powered vector search service with hybrid retrieval (dense + Reciprocal Rank Fusion), Redis embedding cache (24h TTL, keyed by content hash), metadata filtering, index optimisation, and a QPS benchmark at k=1, 5, 10, 50.</p>
-<div class="tech-stack">
-<p><span class="tech-tag">Qdrant</span> <span class="tech-tag">Redis</span> <span class="tech-tag">sentence-transformers</span> <span class="tech-tag">FastAPI</span></p>
+<p>:::</p>
+<div class="ai-card">
+<p><strong><a href="https://github.com/EricPeter/ai-projects/tree/main/11-cicd-ai">11 — CI/CD for AI</a></strong> GitHub Actions eval gate → ArgoCD canary deploy → smoke tests → auto-rollback. ::: {.tech-stack} <span class="tech-tag">GitHub Actions</span> <span class="tech-tag">ArgoCD</span> <span class="tech-tag">Kubernetes</span></p>
 </div>
-</section>
-<section id="agent-memory-system" class="level4 project-card">
-<h4 class="anchored" data-anchor-id="agent-memory-system"><a href="https://github.com/EricPeter/ai-projects/tree/main/13-agent-memory">13 — Agent Memory System</a></h4>
-<p>Multi-layer persistent memory: Redis short-term buffer (last 10 turns, 1h TTL), Qdrant long-term fact storage (semantic recall across sessions), and automatic context compression with Claude Haiku when conversation history grows. Facts extracted and stored after every turn.</p>
-<div class="tech-stack">
-<p><span class="tech-tag">Redis</span> <span class="tech-tag">Qdrant</span> <span class="tech-tag">Anthropic SDK</span> <span class="tech-tag">FastAPI</span></p>
+<p>:::</p>
+<div class="ai-card">
+<p><strong><a href="https://github.com/EricPeter/ai-projects/tree/main/12-vector-db">12 — Vector DB at Scale</a></strong> Qdrant hybrid search with Reciprocal Rank Fusion and Redis embedding cache (24h TTL). ::: {.tech-stack} <span class="tech-tag">Qdrant</span> <span class="tech-tag">Redis</span> <span class="tech-tag">FastAPI</span></p>
 </div>
-</section>
-<section id="production-inference-server" class="level4 project-card">
-<h4 class="anchored" data-anchor-id="production-inference-server"><a href="https://github.com/EricPeter/ai-projects/tree/main/14-inference-server">14 — Production Inference Server</a></h4>
-<p>vLLM load-balanced proxy with automatic health checking (every 10s), least-queue-depth routing across two instances, Prometheus metrics (TTFT, throughput, errors), and automatic failover. Kubernetes deployment manifests and HPA configuration included.</p>
-<div class="tech-stack">
-<p><span class="tech-tag">vLLM</span> <span class="tech-tag">FastAPI</span> <span class="tech-tag">Prometheus</span> <span class="tech-tag">Kubernetes</span></p>
+<p>:::</p>
+<div class="ai-card">
+<p><strong><a href="https://github.com/EricPeter/ai-projects/tree/main/13-agent-memory">13 — Agent Memory</a></strong> Redis short-term buffer + Qdrant long-term recall + automatic context compression. ::: {.tech-stack} <span class="tech-tag">Redis</span> <span class="tech-tag">Qdrant</span> <span class="tech-tag">Anthropic SDK</span></p>
 </div>
-</section>
-<section id="human-in-the-loop-workflow" class="level4 project-card">
-<h4 class="anchored" data-anchor-id="human-in-the-loop-workflow"><a href="https://github.com/EricPeter/ai-projects/tree/main/15-hitl-workflow">15 — Human-in-the-Loop Workflow</a></h4>
-<p>AI task planner with uncertainty detection that automatically pauses on irreversible or sensitive actions for human review. Includes a WebSocket-powered approval UI, SQLite approval store, full audit trail, and resume-on-approval logic.</p>
-<div class="tech-stack">
-<p><span class="tech-tag">LangGraph</span> <span class="tech-tag">FastAPI</span> <span class="tech-tag">WebSocket</span> <span class="tech-tag">SQLite</span></p>
+<p>:::</p>
+<div class="ai-card">
+<p><strong><a href="https://github.com/EricPeter/ai-projects/tree/main/14-inference-server">14 — Inference Load Balancer</a></strong> vLLM proxy with health checking, least-queue-depth routing, TTFT metrics, auto-failover. ::: {.tech-stack} <span class="tech-tag">vLLM</span> <span class="tech-tag">Prometheus</span> <span class="tech-tag">Kubernetes</span></p>
 </div>
-</section>
-<section id="agentic-automation-pipeline" class="level4 project-card">
-<h4 class="anchored" data-anchor-id="agentic-automation-pipeline"><a href="https://github.com/EricPeter/ai-projects/tree/main/16-agentic-automation">16 — Agentic Automation Pipeline</a></h4>
-<p>Async AI job queue: webhook receiver (with HMAC signature validation), Redis-based idempotency deduplication, Celery tasks with exponential backoff retries (30s → 60s → 120s), and Flower monitoring UI. Handles GitHub PR webhooks out of the box.</p>
-<div class="tech-stack">
-<p><span class="tech-tag">FastAPI</span> <span class="tech-tag">Celery</span> <span class="tech-tag">Redis</span> <span class="tech-tag">Anthropic SDK</span> <span class="tech-tag">Flower</span></p>
+<p>:::</p>
+<div class="ai-card">
+<p><strong><a href="https://github.com/EricPeter/ai-projects/tree/main/15-hitl-workflow">15 — Human-in-the-Loop</a></strong> Pauses AI on irreversible actions for human review via a WebSocket approval UI. ::: {.tech-stack} <span class="tech-tag">LangGraph</span> <span class="tech-tag">WebSocket</span> <span class="tech-tag">FastAPI</span></p>
 </div>
-</section>
-<section id="domain-specific-legal-ai-benchmark" class="level4 project-card">
-<h4 class="anchored" data-anchor-id="domain-specific-legal-ai-benchmark"><a href="https://github.com/EricPeter/ai-projects/tree/main/17-domain-benchmark">17 — Domain-Specific Legal AI Benchmark</a></h4>
-<p>Evaluation suite for AI systems on South African legal tasks: contract clause extraction, legal Q&amp;A, and risk assessment. Scores models on ROUGE-L and semantic similarity. Includes a public leaderboard, model adapter interface, and pytest-based test suite.</p>
-<div class="tech-stack">
-<p><span class="tech-tag">DeepEval</span> <span class="tech-tag">ROUGE</span> <span class="tech-tag">sentence-transformers</span> <span class="tech-tag">pytest</span></p>
+<p>:::</p>
+<div class="ai-card">
+<p><strong><a href="https://github.com/EricPeter/ai-projects/tree/main/16-agentic-automation">16 — Agentic Automation</a></strong> Async job queue with HMAC webhook validation, Redis idempotency, Celery exponential backoff. ::: {.tech-stack} <span class="tech-tag">Celery</span> <span class="tech-tag">Redis</span> <span class="tech-tag">FastAPI</span></p>
 </div>
-</section>
-<section id="sunflower-multilingual-translation-api" class="level4 project-card">
-<h4 class="anchored" data-anchor-id="sunflower-multilingual-translation-api"><a href="https://github.com/EricPeter/ai-projects/tree/main/18-sunflower-translator">18 — Sunflower Multilingual Translation API</a></h4>
-<p>Translation and conversational AI across 31 Ugandan languages powered by Sunbird’s Sunflower-14B-W8A8. Supports auto-detection of input language, batch translation, streaming chat, and a clean OpenAI-compatible interface backed by vLLM.</p>
-<div class="tech-stack">
-<p><span class="tech-tag">Sunflower-14B</span> <span class="tech-tag">vLLM</span> <span class="tech-tag">FastAPI</span> <span class="tech-tag">African Languages</span></p>
+<p>:::</p>
+<div class="ai-card">
+<p><strong><a href="https://github.com/EricPeter/ai-projects/tree/main/17-domain-benchmark">17 — Domain Benchmark</a></strong> Legal AI evaluation suite. ROUGE-L + semantic similarity scoring with a public leaderboard. ::: {.tech-stack} <span class="tech-tag">DeepEval</span> <span class="tech-tag">ROUGE</span> <span class="tech-tag">sentence-transformers</span></p>
 </div>
-</section>
-<section id="uganda-community-health-bot" class="level4 project-card">
-<h4 class="anchored" data-anchor-id="uganda-community-health-bot"><a href="https://github.com/EricPeter/ai-projects/tree/main/19-uganda-health-bot">19 — Uganda Community Health Bot</a></h4>
-<p>A community health chatbot answering questions about malaria, maternal health, child nutrition, and HIV in Luganda, Acholi, Ateso, Runyankole, and other Ugandan languages — using Sunbird Sunflower-14B. Includes emergency detection with instant local responses and WhatsApp integration via Twilio.</p>
-<div class="tech-stack">
-<p><span class="tech-tag">Sunflower-14B</span> <span class="tech-tag">FastAPI</span> <span class="tech-tag">Twilio WhatsApp</span> <span class="tech-tag">African Languages</span></p>
+<p>:::</p>
+<div class="ai-card">
+<p><strong><a href="https://github.com/EricPeter/ai-projects/tree/main/18-sunflower-translator">18 — Sunflower Translator</a></strong> Translation across 31 Ugandan languages via Sunbird Sunflower-14B-W8A8. ::: {.tech-stack} <span class="tech-tag">Sunflower-14B</span> <span class="tech-tag">vLLM</span> <span class="tech-tag">FastAPI</span></p>
 </div>
-</section>
+<p>:::</p>
+<div class="ai-card">
+<p><strong><a href="https://github.com/EricPeter/ai-projects/tree/main/19-uganda-health-bot">19 — Uganda Health Bot</a></strong> Community health chatbot in Luganda, Acholi, and English with emergency detection and WhatsApp. ::: {.tech-stack} <span class="tech-tag">Sunflower-14B</span> <span class="tech-tag">FastAPI</span> <span class="tech-tag">Twilio</span></p>
+</div>
+<p>:::</p>
+<div class="ai-card">
+<p><strong><a href="https://github.com/EricPeter/ai-projects/tree/main/20-model-drift-monitor">20 — Model Drift Monitor</a></strong> Probes a model every 5 minutes, detects semantic, behavioral, and latency drift. Warning/critical alerts. ::: {.tech-stack} <span class="tech-tag">sentence-transformers</span> <span class="tech-tag">scipy</span> <span class="tech-tag">SQLite</span></p>
+</div>
+<p>:::</p>
+<p>:::</p>
 <hr>
 </section>
 <section id="research-earlier-projects" class="level2">
