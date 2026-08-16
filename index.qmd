@@ -7,10 +7,28 @@ page-layout: full
 <section class="site-hero">
   <div class="hero-inner">
     <div class="hero-text">
+      <div class="hero-status-row">
+        <span class="status-badge status-open">&#x25CF; Open to PhD &amp; ML roles</span>
+      </div>
       <h1 class="hero-name">Eric Peter Wairagala</h1>
-      <p class="hero-role">Research Engineer, <a href="https://lelapa.ai" class="role-link">Lelapa AI</a> &middot; NLP Researcher &middot; African Language AI</p>
-      <p class="hero-bio">I build machine learning systems that work for African language speakers &mdash; a billion people largely excluded from the benefits of modern AI. At <a href="https://lelapa.ai">Lelapa AI</a>, I develop resource-efficient NLP for the <strong>Vulavula</strong> platform: multilingual speech recognition, machine translation with code-switching support, and low-resource language models deployed at enterprise scale.</p>
-      <p class="hero-bio">My research runs in parallel: investigating gender bias in machine translation, named entity recognition for low-resource languages, and explainable AI for African NLP. I hold an MSc in Computer Science (2025) from <strong>Makerere University</strong> and am actively seeking a <strong>PhD position</strong> to push the foundations of this work further.</p>
+      <p class="hero-role">Research Engineer · <a href="https://lelapa.ai" class="role-link">Lelapa AI</a> · African Language AI</p>
+      <p class="hero-bio">I build NLP systems for African languages — speech recognition, machine translation, and low-resource models in production at <a href="https://lelapa.ai">Lelapa AI</a>'s Vulavula platform. My research covers gender bias in MT, named entity recognition, and explainable AI for low-resource settings.</p>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <span class="stat-num">31</span>
+          <span class="stat-label">Languages</span>
+        </div>
+        <div class="hero-stat-div"></div>
+        <div class="hero-stat">
+          <span class="stat-num">20</span>
+          <span class="stat-label">AI Systems Shipped</span>
+        </div>
+        <div class="hero-stat-div"></div>
+        <div class="hero-stat">
+          <span class="stat-num">4</span>
+          <span class="stat-label">Publications</span>
+        </div>
+      </div>
       <div class="hero-links">
         <a href="https://www.linkedin.com/in/eric-peter-wairagala" class="hero-link">LinkedIn</a>
         <a href="https://github.com/EricPeter" class="hero-link">GitHub</a>
@@ -39,12 +57,11 @@ page-layout: full
         </div>
         <span class="exp-date">2023 &ndash; Present</span>
       </div>
-      <p class="exp-desc">Building production NLP systems for African languages as part of the <strong>Vulavula</strong> platform &mdash; Africa&rsquo;s leading multilingual language AI service. My work spans resource-efficient model development, multilingual speech-to-text with native code-switching support, and machine translation for low-resource Bantu and other African languages. I bridge research and engineering: translating the latest advances in low-resource NLP into robust systems used by enterprise clients in telecoms and financial services across the continent.</p>
+      <p class="exp-desc">Building the <strong>Vulavula</strong> platform — Africa's leading multilingual language AI service. Multilingual speech-to-text with native code-switching, machine translation for low-resource Bantu languages, and resource-efficient models deployed for enterprise clients in telecoms and financial services.</p>
       <div class="exp-tags">
         <span class="exp-tag">Low-resource NLP</span>
         <span class="exp-tag">Speech Recognition</span>
         <span class="exp-tag">Machine Translation</span>
-        <span class="exp-tag">Code-switching</span>
         <span class="exp-tag">MLOps</span>
         <span class="exp-tag">African Languages</span>
       </div>
@@ -52,21 +69,95 @@ page-layout: full
   </section>
 
   <section class="site-section">
-    <h2 class="section-label">Research Interests</h2>
-    <div class="keyword-tags">
-      <span class="keyword-tag">Low-resource NLP</span>
-      <span class="keyword-tag">Machine Translation</span>
-      <span class="keyword-tag">Named Entity Recognition</span>
-      <span class="keyword-tag">Gender Bias in MT</span>
-      <span class="keyword-tag">Explainable AI</span>
-      <span class="keyword-tag">African Languages</span>
-      <span class="keyword-tag">Large Language Models</span>
-      <span class="keyword-tag">Responsible AI</span>
+    <h2 class="section-label">Technical Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <span class="skill-group-label">Core</span>
+        <div class="skill-tags">
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">PyTorch</span>
+          <span class="skill-tag">JAX</span>
+          <span class="skill-tag">SQL</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <span class="skill-group-label">NLP / ML</span>
+        <div class="skill-tags">
+          <span class="skill-tag">Transformers</span>
+          <span class="skill-tag">PEFT / LoRA</span>
+          <span class="skill-tag">sentence-transformers</span>
+          <span class="skill-tag">spaCy</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <span class="skill-group-label">Infrastructure</span>
+        <div class="skill-tags">
+          <span class="skill-tag">FastAPI</span>
+          <span class="skill-tag">vLLM</span>
+          <span class="skill-tag">Docker</span>
+          <span class="skill-tag">Kubernetes</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <span class="skill-group-label">Data &amp; Eval</span>
+        <div class="skill-tags">
+          <span class="skill-tag">Qdrant</span>
+          <span class="skill-tag">Redis</span>
+          <span class="skill-tag">OpenTelemetry</span>
+          <span class="skill-tag">DeepEval</span>
+        </div>
+      </div>
     </div>
   </section>
 
   <section class="site-section">
+    <h2 class="section-label">Featured Projects</h2>
+    <div class="featured-grid">
+      <a href="https://github.com/EricPeter/ai-projects/tree/main/19-uganda-health-bot" class="featured-card" target="_blank" rel="noopener">
+        <div class="featured-num">19</div>
+        <div class="featured-body">
+          <p class="featured-title">Uganda Community Health Bot</p>
+          <p class="featured-desc">Health chatbot in Luganda, Acholi &amp; English using Sunbird Sunflower-14B. Emergency detection with instant local responses.</p>
+          <div class="featured-tags">
+            <span class="tech-tag">Sunflower-14B</span><span class="tech-tag">vLLM</span><span class="tech-tag">FastAPI</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://github.com/EricPeter/ai-projects/tree/main/01-production-rag" class="featured-card" target="_blank" rel="noopener">
+        <div class="featured-num">01</div>
+        <div class="featured-body">
+          <p class="featured-title">Production RAG with Citations</p>
+          <p class="featured-desc">Hybrid search (dense + BM25), cross-encoder reranking, LangGraph pipeline. Returns page-level citations.</p>
+          <div class="featured-tags">
+            <span class="tech-tag">LangGraph</span><span class="tech-tag">SQLite-vec</span><span class="tech-tag">sentence-transformers</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://github.com/EricPeter/ai-projects/tree/main/20-model-drift-monitor" class="featured-card" target="_blank" rel="noopener">
+        <div class="featured-num">20</div>
+        <div class="featured-body">
+          <p class="featured-title">Model Drift Monitor</p>
+          <p class="featured-desc">Continuously probes a model and detects semantic, behavioral &amp; latency drift. Warning/critical alerts.</p>
+          <div class="featured-tags">
+            <span class="tech-tag">sentence-transformers</span><span class="tech-tag">scipy</span><span class="tech-tag">SQLite</span>
+          </div>
+        </div>
+      </a>
+    </div>
+    <a href="projects.html" class="all-pubs-link" style="margin-top:1rem;display:inline-flex;">View all 20 projects &rarr;</a>
+  </section>
+
+  <section class="site-section">
     <h2 class="section-label">Selected Work</h2>
+
+    <div class="pub-card">
+      <a href="https://arxiv.org/abs/2504.14105" class="pub-title">Amplify Initiative: Building A Localized Data Platform for Globalized AI</a>
+      <p class="pub-authors">Q. M. Rashid, E. van Liemt, T. Shih, ..., <strong>E. P. Wairagala</strong>, et al.</p>
+      <div class="pub-meta">
+        <span class="venue-badge venue-large">Large Consortium</span>
+        <a href="https://arxiv.org/pdf/2504.14105" class="pub-link">PDF &#8599;</a>
+      </div>
+    </div>
 
     <div class="pub-card">
       <a href="https://aclanthology.org/2022.amta-research.21/" class="pub-title">Gender Bias Evaluation in Luganda&ndash;English Machine Translation</a>
@@ -106,7 +197,7 @@ page-layout: full
         <span class="edu-date">2022 &ndash; 2025</span>
       </div>
       <span class="edu-org">Makerere University, Kampala</span>
-      <p class="edu-note">Research focus: medical machine translation and explainable AI for low-resource African languages. Supervised by Dr. Joyce Nakatumba-Nabende.</p>
+      <p class="edu-note">Medical machine translation and explainable AI for low-resource African languages. Supervised by Dr. Joyce Nakatumba-Nabende.</p>
     </div>
     <div class="edu-item">
       <div class="edu-header">

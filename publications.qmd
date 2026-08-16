@@ -6,6 +6,18 @@ Research on NLP for low-resource African languages — machine translation, name
 
 [Full list on Google Scholar ↗](https://scholar.google.com/citations?user=al9kLwwAAAAJ&hl=en){.scholar-link}
 
+## 2025
+
+::: {.pub-entry}
+**[Amplify Initiative: Building A Localized Data Platform for Globalized AI](https://arxiv.org/abs/2504.14105)**
+
+Q. M. Rashid, E. van Liemt, T. Shih, A. Ebinama, K. Barrios Ramos, M. Maji, A. Verma, C. Kalia, J. Smith-Loud, J. Nakatumba-Nabende, R. Baguma, A. Katumba, C. Mutebi, J. Marvin, **Eric Peter Wairagala**, M. Bruce, P. Oketta, L. Nderu, O. Obiajunwa, A. Oppong, M. Zimba, et al.
+
+[Large Consortium]{.venue-badge .venue-large} · [PDF ↗](https://arxiv.org/pdf/2504.14105)
+
+Collaborative data platform engaging 155 domain experts across five Sub-Saharan African countries to produce 8,091 annotated adversarial queries in seven languages for evaluating AI safety and cultural appropriateness in non-English contexts.
+:::
+
 ## In Progress
 
 ::: {.pub-entry}
