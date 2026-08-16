@@ -83,9 +83,9 @@ body {
 
 /* === HERO — full-width, two-column === */
 .site-hero {
-  background: #fafafa;
+  background: linear-gradient(160deg, #f8fffe 0%, #fafafa 55%, #f5f3ff 100%);
   border-bottom: 1px solid #f3f4f6;
-  padding: 6rem 2rem 5.5rem;
+  padding: 5.5rem 2rem 5rem;
   box-sizing: border-box;
 }
 
@@ -116,7 +116,7 @@ body {
   font-size: 1.05rem;
   color: #6b7280;
   font-weight: 400;
-  margin: 0 0 2rem;
+  margin: 0 0 1rem;
   line-height: 1.5;
 }
 
@@ -412,8 +412,11 @@ a:hover { color: #0f766e; text-decoration: underline; }
 
 /* === Experience items === */
 .exp-item {
-  padding: 1.4rem 0;
+  padding: 1.4rem 0 1.4rem 1.25rem;
   border-bottom: 1px solid #f3f4f6;
+  border-left: 2px solid #99f6e4;
+  margin-left: -1.25rem;
+  padding-left: 1.25rem;
 }
 .exp-item:last-child { border-bottom: none; }
 
@@ -723,6 +726,57 @@ a:hover { color: #0f766e; text-decoration: underline; }
   color: #9ca3af !important;
   font-size: 0.8rem;
   padding: 1.5rem 0 !important;
+}
+
+/* === Contact CTA === */
+.contact-cta {
+  background: linear-gradient(135deg, #f0fdfa 0%, #f5f3ff 100%);
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 1.75rem 2rem;
+}
+
+.contact-text {
+  font-size: 0.95rem;
+  color: #374151;
+  margin: 0 0 1.25rem;
+  line-height: 1.7;
+}
+
+.contact-text strong { color: #111827; }
+
+.contact-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+
+.contact-btn {
+  display: inline-block;
+  padding: 9px 20px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  font-size: 0.84rem;
+  font-weight: 500;
+  color: #374151;
+  background: #ffffff;
+  text-decoration: none !important;
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
+  white-space: nowrap;
+}
+
+.contact-btn:hover {
+  border-color: #0d9488;
+  color: #0d9488;
+  background: #f0fdfa;
+}
+
+.contact-btn-primary {
+  background: #0d9488 !important;
+  border-color: #0d9488 !important;
+  color: #ffffff !important;
+}
+
+.contact-btn-primary:hover {
+  background: #0f766e !important;
+  border-color: #0f766e !important;
+  color: #ffffff !important;
 }
 
 /* === Divider === */
