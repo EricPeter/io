@@ -209,8 +209,15 @@ page-layout: full
   </section>
 
   <section class="site-section">
-    <h2 class="section-label">Contact</h2>
-    <p>Open to PhD opportunities, research collaborations, and ML engineering roles &mdash; <a href="mailto:kigaye.ericpeter@gmail.com">kigaye.ericpeter@gmail.com</a></p>
+    <h2 class="section-label">Get in Touch</h2>
+    <div class="contact-cta">
+      <p class="contact-text">I'm actively looking for <strong>PhD positions</strong> in NLP / low-resource language AI, and open to research collaborations and senior ML engineering roles.</p>
+      <div class="contact-actions">
+        <a href="mailto:kigaye.ericpeter@gmail.com" class="contact-btn contact-btn-primary">Email me</a>
+        <a href="https://www.linkedin.com/in/eric-peter-wairagala" class="contact-btn" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="Eric_Peter_Wairagala_CV.pdf" class="contact-btn" target="_blank">Download CV</a>
+      </div>
+    </div>
   </section>
 
 </div>
