@@ -10,7 +10,7 @@ page-layout: full
       <div class="hero-status-row">
         <span class="status-badge status-open">&#x25CF; Open to PhD &amp; ML roles</span>
       </div>
-      <h1 class="hero-name">Eric Peter Wairagala</h1>
+      <h1 class="hero-name">Eric Wairagala</h1>
       <p class="hero-role">Research Engineer · <a href="https://lelapa.ai" class="role-link">Lelapa AI</a> · African Language AI</p>
       <p class="hero-bio">I build NLP systems for African languages — speech recognition, machine translation, and low-resource models in production at <a href="https://lelapa.ai">Lelapa AI</a>'s Vulavula platform. My research covers gender bias in MT, named entity recognition, and explainable AI for low-resource settings.</p>
       <div class="hero-stats">
@@ -38,7 +38,7 @@ page-layout: full
       </div>
     </div>
     <div class="hero-photo-wrap">
-      <img src="images/profile-linkedin.jpg" alt="Eric Peter Wairagala" class="hero-photo">
+      <img src="images/profile-linkedin.jpg" alt="Eric Wairagala" class="hero-photo">
     </div>
   </div>
 </section>

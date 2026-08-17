@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "Eric Peter Wairagala"
+  title: "Eric Wairagala"
   navbar:
     left:
       - href: index.qmd
@@ -17,7 +17,7 @@ website:
         href: "Eric_Peter_Wairagala_CV.pdf"
   favicon: "images/favicon-32x32.png"
   page-footer:
-    center: "© 2026 Eric Peter Wairagala"
+    center: "© 2026 Eric Wairagala"
 
 format:
   html:
