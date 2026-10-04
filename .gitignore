@@ -51,3 +51,11 @@ rsconnect/
 
 # AI projects portfolio (lives in its own repo: github.com/EricPeter/ai-projects)
 ai-projects/
+
+# Separate projects, not part of the personal site
+phosai/
+audio_diarization_annotation/
+content-studio/
+
+# IDE
+.idea/

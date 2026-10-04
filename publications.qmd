@@ -13,7 +13,7 @@ Research on NLP for low-resource African languages — machine translation, name
 
 Q. M. Rashid, E. van Liemt, T. Shih, A. Ebinama, K. Barrios Ramos, M. Maji, A. Verma, C. Kalia, J. Smith-Loud, J. Nakatumba-Nabende, R. Baguma, A. Katumba, C. Mutebi, J. Marvin, **Eric Wairagala**, M. Bruce, P. Oketta, L. Nderu, O. Obiajunwa, A. Oppong, M. Zimba, et al.
 
-[Large Consortium]{.venue-badge .venue-large} · [PDF ↗](https://arxiv.org/pdf/2504.14105)
+[Large Consortium]{.venue-badge} · [PDF ↗](https://arxiv.org/pdf/2504.14105)
 
 Collaborative data platform engaging 155 domain experts across five Sub-Saharan African countries to produce 8,091 annotated adversarial queries in seven languages for evaluating AI safety and cultural appropriateness in non-English contexts.
 :::
@@ -25,7 +25,7 @@ Collaborative data platform engaging 155 domain experts across five Sub-Saharan 
 
 *Dr. Joyce Nakatumba-Nabende*, **Eric Wairagala**, Jonathan Mukiibi, Benjamin Akera
 
-[In Preparation]{.venue-badge .venue-progress}
+[In Preparation]{.venue-badge}
 :::
 
 ::: {.pub-entry}
@@ -33,7 +33,7 @@ Collaborative data platform engaging 155 domain experts across five Sub-Saharan 
 
 *Dr. Joyce Nakatumba-Nabende*, **Eric Wairagala**, Jonathan Mukiibi
 
-[In Preparation]{.venue-badge .venue-progress}
+[In Preparation]{.venue-badge}
 :::
 
 ## 2022
@@ -43,7 +43,7 @@ Collaborative data platform engaging 155 domain experts across five Sub-Saharan 
 
 **Eric Wairagala**, Jonathan Mukiibi, Jeremy Francis Tusubira, Claire Babirye, Joyce Nakatumba-Nabende, Andrew Katumba, Ivan Ssenkungu
 
-[AMTA 2022]{.venue-badge .venue-amta} · [PDF ↗](https://aclanthology.org/2022.amta-research.21v2.pdf)
+[AMTA 2022]{.venue-badge} · [PDF ↗](https://aclanthology.org/2022.amta-research.21v2.pdf)
 
 First study of gender bias in Luganda–English machine translation; introduces evaluation benchmarks and mitigation strategies.
 :::
@@ -53,7 +53,7 @@ First study of gender bias in Luganda–English machine translation; introduces 
 
 David I. Adelani, Jesujoba O. Alabi, Angela Fan, Julia Kreutzer, Xiaoyu Shen, Machel Reid, Dana Ruiter, ..., **Eric Wairagala**, et al.
 
-[Large Consortium]{.venue-badge .venue-large} · [PDF ↗](https://arxiv.org/pdf/2205.02022.pdf)
+[Large Consortium]{.venue-badge} · [PDF ↗](https://arxiv.org/pdf/2205.02022.pdf)
 
 Multilingual translation benchmarks spanning 15+ African languages via pre-trained model transfer.
 :::
@@ -65,7 +65,7 @@ Multilingual translation benchmarks spanning 15+ African languages via pre-train
 
 David I. Adelani, Jade Abbott, Graham Neubig, Daniel D'Souza, Julia Kreutzer, ..., **Eric Wairagala**, et al.
 
-[TACL 2021]{.venue-badge .venue-tacl} · [PDF ↗](https://onlinelibrary.wiley.com/doi/epdf/10.1111/ele.13716)
+[TACL 2021]{.venue-badge} · [PDF ↗](https://onlinelibrary.wiley.com/doi/epdf/10.1111/ele.13716)
 
 Foundational NER benchmark across 10 African languages; key resource for low-resource sequence labelling.
 :::
