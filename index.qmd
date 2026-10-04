@@ -7,14 +7,17 @@ page-layout: full
 <div class="site-body">
 
   <section class="hero">
-    <h1 class="hero-name">Hi, I'm Eric</h1>
-    <p class="hero-tagline">Research Engineer at <a href="https://lelapa.ai">Lelapa AI</a>, building NLP systems for African languages — speech recognition, machine translation, and low-resource models serving 31 languages in production on the Vulavula platform. My research covers gender bias in MT, named entity recognition, and explainable AI for low-resource settings. Currently <strong>open to PhD positions</strong> in NLP / low-resource language AI, plus research collaborations and senior ML engineering roles.</p>
-    <div class="hero-links">
-      <a href="https://github.com/EricPeter" target="_blank" rel="noopener">GitHub</a>
-      <a href="https://www.linkedin.com/in/eric-peter-wairagala" target="_blank" rel="noopener">LinkedIn</a>
-      <a href="https://scholar.google.com/citations?user=al9kLwwAAAAJ&hl=en" target="_blank" rel="noopener">Scholar</a>
-      <a href="mailto:kigaye.ericpeter@gmail.com">Email</a>
-      <a href="Eric_Peter_Wairagala_CV.pdf">CV</a>
+    <img src="images/profile-linkedin.jpg" alt="Eric Wairagala" class="hero-photo">
+    <div class="hero-text">
+      <h1 class="hero-name">Hi, I'm Eric</h1>
+      <p class="hero-tagline">Research Engineer at <a href="https://lelapa.ai">Lelapa AI</a>, building NLP systems for African languages — speech recognition, machine translation, and low-resource models serving 31 languages in production on the Vulavula platform. My research covers gender bias in MT, named entity recognition, and explainable AI for low-resource settings. Currently <strong>open to PhD positions</strong> in NLP / low-resource language AI, plus research collaborations and senior ML engineering roles.</p>
+      <div class="hero-links">
+        <a href="https://github.com/EricPeter" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/eric-peter-wairagala" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://scholar.google.com/citations?user=al9kLwwAAAAJ&hl=en" target="_blank" rel="noopener">Scholar</a>
+        <a href="mailto:kigaye.ericpeter@gmail.com">Email</a>
+        <a href="Eric_Peter_Wairagala_CV.pdf">CV</a>
+      </div>
     </div>
   </section>
 
