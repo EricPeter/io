@@ -109,13 +109,14 @@ body {
 }
 
 .hero-photo {
-  width: 56px;
-  height: 56px;
+  width: 64px;
+  height: 64px;
   border-radius: 50%;
   object-fit: cover;
   object-position: center top;
   flex-shrink: 0;
   border: 1px solid var(--border);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.07);
 }
 
 .hero-name {
@@ -129,7 +130,7 @@ body {
 
 @media (min-width: 640px) {
   .hero-name { font-size: 2.5rem; }
-  .hero-photo { width: 68px; height: 68px; }
+  .hero-photo { width: 76px; height: 76px; }
 }
 
 .hero-tagline {

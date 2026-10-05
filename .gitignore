@@ -49,6 +49,10 @@ po/*~
 rsconnect/
 /.quarto/
 
+# Build output — regenerated fresh by .github/workflows/publish.yml
+# into the gh-pages branch; nothing depends on a committed copy here
+/_site/
+
 # AI projects portfolio (lives in its own repo: github.com/EricPeter/ai-projects)
 ai-projects/
 
