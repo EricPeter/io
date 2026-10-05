@@ -15,161 +15,121 @@ Production AI systems, research, and applied ML spanning NLP, low-resource langu
 ::: {.ai-card}
 **[01 — Production RAG](https://github.com/EricPeter/ai-projects/tree/main/01-production-rag)**
 PDF Q&A with page citations. Hybrid search (dense + BM25), cross-encoder reranking, LangGraph pipeline.
-::: {.tech-stack}
 [LangGraph]{.tech-tag} [SQLite-vec]{.tech-tag} [BM25]{.tech-tag} [FastAPI]{.tech-tag}
-:::
 :::
 
 ::: {.ai-card}
 **[02 — Model Router](https://github.com/EricPeter/ai-projects/tree/main/02-model-router)**
 Routes queries to Haiku, Sonnet, or Opus by complexity. Saves up to 10× on API cost.
-::: {.tech-stack}
 [Anthropic SDK]{.tech-tag} [Prometheus]{.tech-tag} [FastAPI]{.tech-tag}
-:::
 :::
 
 ::: {.ai-card}
 **[03 — Multi-Agent Research](https://github.com/EricPeter/ai-projects/tree/main/03-multi-agent-research)**
 CrewAI pipeline: Researcher, Writer, Fact-Checker with human-approval gate and JSONL audit trail.
-::: {.tech-stack}
 [CrewAI]{.tech-tag} [Anthropic SDK]{.tech-tag} [Audit Trail]{.tech-tag}
-:::
 :::
 
 ::: {.ai-card}
 **[04 — Eval Harness](https://github.com/EricPeter/ai-projects/tree/main/04-eval-harness)**
 20+ golden Q&A test cases run before every deploy. Blocks CI if quality drops below threshold.
-::: {.tech-stack}
 [DeepEval]{.tech-tag} [RAGAS]{.tech-tag} [pytest]{.tech-tag}
-:::
 :::
 
 ::: {.ai-card}
 **[05 — Observability](https://github.com/EricPeter/ai-projects/tree/main/05-observability)**
 Full-stack AI observability: OpenTelemetry traces, Prometheus metrics, auto-provisioned Grafana dashboard.
-::: {.tech-stack}
 [OpenTelemetry]{.tech-tag} [Prometheus]{.tech-tag} [Grafana]{.tech-tag}
-:::
 :::
 
 ::: {.ai-card}
 **[06 — Security Guardrails](https://github.com/EricPeter/ai-projects/tree/main/06-security-guardrails)**
 Middleware: prompt injection detection, PII redaction with Presidio, output filtering, rate limiting.
-::: {.tech-stack}
 [Presidio]{.tech-tag} [FastAPI]{.tech-tag} [slowapi]{.tech-tag}
-:::
 :::
 
 ::: {.ai-card}
 **[07 — Local Dev Environment](https://github.com/EricPeter/ai-projects/tree/main/07-local-dev)**
 Zero API cost RAG stack that runs 100% offline. Ollama + LanceDB + sentence-transformers.
-::: {.tech-stack}
 [Ollama]{.tech-tag} [LanceDB]{.tech-tag} [FastAPI]{.tech-tag}
-:::
 :::
 
 ::: {.ai-card}
 **[08 — Streaming Copilot UI](https://github.com/EricPeter/ai-projects/tree/main/08-streaming-copilot)**
 Token-level streaming chat with Next.js 14 App Router and Vercel AI SDK.
-::: {.tech-stack}
 [Next.js 14]{.tech-tag} [Vercel AI SDK]{.tech-tag} [TypeScript]{.tech-tag}
-:::
 :::
 
 ::: {.ai-card}
 **[09 — Fine-Tuning Pipeline](https://github.com/EricPeter/ai-projects/tree/main/09-fine-tuning)**
 LoRA fine-tuning with PEFT + DPO, ROUGE-L evaluation, and catastrophic forgetting detection.
-::: {.tech-stack}
 [PEFT]{.tech-tag} [TRL]{.tech-tag} [Transformers]{.tech-tag}
-:::
 :::
 
 ::: {.ai-card}
 **[10 — Multi-Tenant SaaS](https://github.com/EricPeter/ai-projects/tree/main/10-multi-tenant-saas)**
 JWT auth, row-level tenant isolation, per-tier rate limiting, usage cost accounting.
-::: {.tech-stack}
 [FastAPI]{.tech-tag} [SQLAlchemy]{.tech-tag} [JWT]{.tech-tag}
-:::
 :::
 
 ::: {.ai-card}
 **[11 — CI/CD for AI](https://github.com/EricPeter/ai-projects/tree/main/11-cicd-ai)**
 GitHub Actions eval gate → ArgoCD canary deploy → smoke tests → auto-rollback.
-::: {.tech-stack}
 [GitHub Actions]{.tech-tag} [ArgoCD]{.tech-tag} [Kubernetes]{.tech-tag}
-:::
 :::
 
 ::: {.ai-card}
 **[12 — Vector DB at Scale](https://github.com/EricPeter/ai-projects/tree/main/12-vector-db)**
 Qdrant hybrid search with Reciprocal Rank Fusion and Redis embedding cache (24h TTL).
-::: {.tech-stack}
 [Qdrant]{.tech-tag} [Redis]{.tech-tag} [FastAPI]{.tech-tag}
-:::
 :::
 
 ::: {.ai-card}
 **[13 — Agent Memory](https://github.com/EricPeter/ai-projects/tree/main/13-agent-memory)**
 Redis short-term buffer + Qdrant long-term recall + automatic context compression.
-::: {.tech-stack}
 [Redis]{.tech-tag} [Qdrant]{.tech-tag} [Anthropic SDK]{.tech-tag}
-:::
 :::
 
 ::: {.ai-card}
 **[14 — Inference Load Balancer](https://github.com/EricPeter/ai-projects/tree/main/14-inference-server)**
 vLLM proxy with health checking, least-queue-depth routing, TTFT metrics, auto-failover.
-::: {.tech-stack}
 [vLLM]{.tech-tag} [Prometheus]{.tech-tag} [Kubernetes]{.tech-tag}
-:::
 :::
 
 ::: {.ai-card}
 **[15 — Human-in-the-Loop](https://github.com/EricPeter/ai-projects/tree/main/15-hitl-workflow)**
 Pauses AI on irreversible actions for human review via a WebSocket approval UI.
-::: {.tech-stack}
 [LangGraph]{.tech-tag} [WebSocket]{.tech-tag} [FastAPI]{.tech-tag}
-:::
 :::
 
 ::: {.ai-card}
 **[16 — Agentic Automation](https://github.com/EricPeter/ai-projects/tree/main/16-agentic-automation)**
 Async job queue with HMAC webhook validation, Redis idempotency, Celery exponential backoff.
-::: {.tech-stack}
 [Celery]{.tech-tag} [Redis]{.tech-tag} [FastAPI]{.tech-tag}
-:::
 :::
 
 ::: {.ai-card}
 **[17 — Domain Benchmark](https://github.com/EricPeter/ai-projects/tree/main/17-domain-benchmark)**
 Legal AI evaluation suite. ROUGE-L + semantic similarity scoring with a public leaderboard.
-::: {.tech-stack}
 [DeepEval]{.tech-tag} [ROUGE]{.tech-tag} [sentence-transformers]{.tech-tag}
-:::
 :::
 
 ::: {.ai-card}
 **[18 — Sunflower Translator](https://github.com/EricPeter/ai-projects/tree/main/18-sunflower-translator)**
 Translation across 31 Ugandan languages via Sunbird Sunflower-14B-W8A8.
-::: {.tech-stack}
 [Sunflower-14B]{.tech-tag} [vLLM]{.tech-tag} [FastAPI]{.tech-tag}
-:::
 :::
 
 ::: {.ai-card}
 **[19 — Uganda Health Bot](https://github.com/EricPeter/ai-projects/tree/main/19-uganda-health-bot)**
 Community health chatbot in Luganda, Acholi, and English with emergency detection and WhatsApp.
-::: {.tech-stack}
 [Sunflower-14B]{.tech-tag} [FastAPI]{.tech-tag} [Twilio]{.tech-tag}
-:::
 :::
 
 ::: {.ai-card}
 **[20 — Model Drift Monitor](https://github.com/EricPeter/ai-projects/tree/main/20-model-drift-monitor)**
 Probes a model every 5 minutes, detects semantic, behavioral, and latency drift. Warning/critical alerts.
-::: {.tech-stack}
 [sentence-transformers]{.tech-tag} [scipy]{.tech-tag} [SQLite]{.tech-tag}
-:::
 :::
 
 :::
@@ -183,9 +143,7 @@ Probes a model every 5 minutes, detects semantic, behavioral, and latency drift.
 
 Topic classifier for the Luganda text corpus using Cohere embedding representations and an SVM with hyper-parameter search. Demonstrates full NLP pipeline development for a low-resource Bantu language.
 
-::: {.tech-stack}
 [Python]{.tech-tag} [SVM]{.tech-tag} [Cohere API]{.tech-tag} [Scikit-learn]{.tech-tag} [Low-resource NLP]{.tech-tag}
-:::
 :::
 
 ::: {.project-card}
@@ -193,9 +151,7 @@ Topic classifier for the Luganda text corpus using Cohere embedding representati
 
 Interactive visualisation of water quality metrics across Kampala Central Division, surfacing spatial patterns in sanitation data to support public health analysis and policy.
 
-::: {.tech-stack}
 [R]{.tech-tag} [Data Visualisation]{.tech-tag} [Geospatial Analysis]{.tech-tag} [Public Health]{.tech-tag}
-:::
 :::
 
 ::: {.project-card}
@@ -203,9 +159,7 @@ Interactive visualisation of water quality metrics across Kampala Central Divisi
 
 Fine-tuned the Alpaca instruction-following LLM for multilingual language translation and topic classification, exploring parameter-efficient adaptation for low-resource language settings.
 
-::: {.tech-stack}
 [Python]{.tech-tag} [LLaMA / Alpaca]{.tech-tag} [Instruction Tuning]{.tech-tag} [Fine-tuning]{.tech-tag} [Multilingual NLP]{.tech-tag}
-:::
 :::
 
 ::: {.project-card}
@@ -213,7 +167,5 @@ Fine-tuned the Alpaca instruction-following LLM for multilingual language transl
 
 Deep learning pipeline for detecting chest opacities in ultrasound images — a low-cost, non-ionising alternative to CT scanning, aimed at resource-constrained clinical settings in LMICs.
 
-::: {.tech-stack}
 [Python]{.tech-tag} [PyTorch]{.tech-tag} [Deep Learning]{.tech-tag} [Medical Imaging]{.tech-tag} [Computer Vision]{.tech-tag}
-:::
 :::

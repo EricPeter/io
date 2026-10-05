@@ -99,14 +99,18 @@ body {
 .hero {
   padding-top: 0.5rem;
   margin-bottom: 2.5rem;
+}
+
+.hero-top {
   display: flex;
   align-items: center;
-  gap: 1.5rem;
+  gap: 1rem;
+  margin-bottom: 1.1rem;
 }
 
 .hero-photo {
-  width: 84px;
-  height: 84px;
+  width: 56px;
+  height: 56px;
   border-radius: 50%;
   object-fit: cover;
   object-position: center top;
@@ -114,24 +118,18 @@ body {
   border: 1px solid var(--border);
 }
 
-.hero-text { flex: 1; min-width: 0; }
-
 .hero-name {
   font-size: 1.875rem;
   font-weight: 700;
   letter-spacing: -0.03em;
   line-height: 1.15;
   color: var(--foreground);
-  margin: 0 0 0.75rem;
+  margin: 0;
 }
 
 @media (min-width: 640px) {
   .hero-name { font-size: 2.5rem; }
-  .hero-photo { width: 104px; height: 104px; }
-}
-
-@media (max-width: 480px) {
-  .hero { flex-direction: column; align-items: flex-start; gap: 1rem; }
+  .hero-photo { width: 68px; height: 68px; }
 }
 
 .hero-tagline {
@@ -160,6 +158,15 @@ body {
 }
 
 .hero-links a:hover { color: var(--foreground); text-decoration: underline; text-underline-offset: 3px; }
+
+.hero-links a.hero-cv {
+  color: #ffffff;
+  background: var(--foreground);
+  padding: 5px 14px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+.hero-links a.hero-cv:hover { color: #ffffff; background: #262626; text-decoration: none; }
 
 /* === Section headings — bold, normal case, same color as body (no tiny gray caps) === */
 .section-label,
