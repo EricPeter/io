@@ -8,9 +8,11 @@ website:
       - href: index.qmd
         text: Home
       - href: publications.qmd
-        text: Publications
+        text: Research
       - href: projects.qmd
         text: Projects
+      - text: "Scholar ↗"
+        href: "https://scholar.google.com/citations?user=al9kLwwAAAAJ&hl=en"
     right:
       - text: "CV"
         icon: file-earmark-pdf
