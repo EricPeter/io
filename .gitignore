@@ -60,6 +60,7 @@ ai-projects/
 phosai/
 audio_diarization_annotation/
 content-studio/
+T/
 
 # IDE
 .idea/

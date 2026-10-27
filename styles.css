@@ -16,13 +16,14 @@
 
 body {
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.7;
   color: var(--foreground);
   background: var(--background);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
+  text-align: center;
 }
 
 /* Full-bleed page layout — let .site-body alone control width/centering */
@@ -34,8 +35,8 @@ body {
 
 /* === Navbar === */
 .navbar {
-  background: var(--background) !important;
-  border-bottom: 1px solid var(--border) !important;
+  background: #333 !important;
+  border-bottom: none !important;
   box-shadow: none !important;
   padding: 0 !important;
   height: 56px;
@@ -46,7 +47,7 @@ body {
 
 .navbar .container-fluid,
 .navbar .container-xl {
-  max-width: 672px !important;
+  max-width: 800px !important;
   margin: 0 auto !important;
   padding: 0 1.5rem !important;
   height: 56px;
@@ -57,7 +58,7 @@ body {
 .navbar-brand {
   font-size: 0.9rem !important;
   font-weight: 600 !important;
-  color: var(--foreground) !important;
+  color: #ffffff !important;
   letter-spacing: -0.01em;
   padding: 0 !important;
 }
@@ -65,7 +66,7 @@ body {
 .navbar-nav .nav-link {
   font-size: 0.875rem !important;
   font-weight: 500 !important;
-  color: var(--muted-foreground) !important;
+  color: #cccccc !important;
   padding: 0 0.85rem !important;
   line-height: 56px;
   transition: color 0.15s;
@@ -73,20 +74,25 @@ body {
 
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active {
-  color: var(--foreground) !important;
+  color: #ffffff !important;
   background: none !important;
 }
 
 .navbar-toggler {
-  border: 1px solid var(--border) !important;
+  border: 1px solid #555 !important;
   border-radius: 6px;
+}
+
+.navbar-toggler-icon {
+  filter: invert(1);
 }
 
 /* === Page container — single narrow centered column (max-w-2xl) === */
 .site-body {
-  max-width: 672px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 3rem 1.5rem 6rem;
+  text-align: left;
 }
 
 @media (min-width: 640px) {
@@ -97,30 +103,31 @@ body {
 
 /* === Hero === */
 .hero {
-  padding-top: 0.5rem;
+  padding-top: 2rem;
   margin-bottom: 2.5rem;
+  text-align: center;
 }
 
 .hero-top {
   display: flex;
+  flex-direction: column;
   align-items: center;
   gap: 1rem;
   margin-bottom: 1.1rem;
 }
 
 .hero-photo {
-  width: 64px;
-  height: 64px;
+  width: 20%;
+  aspect-ratio: 1;
   border-radius: 50%;
   object-fit: cover;
   object-position: center top;
-  flex-shrink: 0;
   border: 1px solid var(--border);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.07);
 }
 
 .hero-name {
-  font-size: 1.875rem;
+  font-size: 35px;
   font-weight: 700;
   letter-spacing: -0.03em;
   line-height: 1.15;
@@ -128,17 +135,12 @@ body {
   margin: 0;
 }
 
-@media (min-width: 640px) {
-  .hero-name { font-size: 2.5rem; }
-  .hero-photo { width: 76px; height: 76px; }
-}
-
 .hero-tagline {
-  font-size: 0.95rem;
+  font-size: 18px;
   color: var(--muted-foreground);
   line-height: 1.75;
-  margin: 0 0 1.25rem;
-  max-width: 560px;
+  margin: 0 auto 1.25rem;
+  max-width: 600px;
 }
 
 .hero-tagline strong { color: var(--foreground); font-weight: 600; }
@@ -149,10 +151,11 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 1.1rem;
+  justify-content: center;
 }
 
 .hero-links a {
-  font-size: 0.875rem;
+  font-size: 18px;
   font-weight: 500;
   color: var(--muted-foreground);
   text-decoration: none;
@@ -409,12 +412,15 @@ a:hover { text-decoration-color: var(--foreground); }
 
 /* === Footer === */
 .nav-footer {
-  background: transparent !important;
-  border-top: 1px solid var(--border) !important;
-  color: var(--muted-foreground) !important;
+  background: #333 !important;
+  border-top: none !important;
+  color: #ccc !important;
   font-size: 0.8rem;
   padding: 1.5rem 0 !important;
 }
+
+.nav-footer a { color: #ccc !important; }
+.nav-footer a:hover { color: #fff !important; }
 
 /* === Contact — plain, no gradient box === */
 .contact-cta { background: none; border: none; padding: 0; }
