@@ -47,12 +47,13 @@ body {
 
 .navbar .container-fluid,
 .navbar .container-xl {
-  max-width: 800px !important;
+  max-width: 100% !important;
   margin: 0 auto !important;
-  padding: 0 1.5rem !important;
+  padding: 0 2rem !important;
   height: 56px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .navbar-brand {
@@ -87,16 +88,25 @@ body {
   filter: invert(1);
 }
 
-/* === Page container — single narrow centered column (max-w-2xl) === */
+/* === Page container — full-width centered (vinija-style) === */
 .site-body {
-  max-width: 800px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 3rem 1.5rem 6rem;
-  text-align: left;
+  padding: 3rem 6rem 6rem;
+  text-align: center;
 }
 
 @media (min-width: 640px) {
   .site-body { padding-top: 5rem; }
+}
+
+/* Keep structured content left-aligned within centered layout */
+.exp-item, .edu-item, .pub-card, .featured-card, .ai-card, .project-card, .pub-entry {
+  text-align: left;
+}
+
+.skills-grid, .featured-grid, .ai-grid, .contact-actions {
+  text-align: left;
 }
 
 .site-section { margin-bottom: 3.25rem; }
@@ -348,9 +358,9 @@ a:hover { text-decoration-color: var(--foreground); }
 
 /* === Sub-page content width === */
 .page-layout-article main.content {
-  max-width: 672px !important;
+  max-width: 100% !important;
   margin: 0 auto !important;
-  padding: 3rem 1.5rem 5rem !important;
+  padding: 3rem 6rem 5rem !important;
 }
 
 /* === AI portfolio grid (projects.qmd) === */
@@ -488,6 +498,6 @@ hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
 @media (max-width: 800px) {
   .ai-grid { grid-template-columns: 1fr; }
   .skills-grid { grid-template-columns: 1fr; }
-  .site-body { padding: 2.5rem 1.25rem 4rem; }
-  .page-layout-article main.content { padding: 2.5rem 1.25rem 4rem !important; }
+  .site-body { padding: 2.5rem 1.5rem 4rem; }
+  .page-layout-article main.content { padding: 2.5rem 1.5rem 4rem !important; }
 }
